@@ -45,6 +45,7 @@
 					?>
 				        <div class="item col-xs-3 col-lg-3">
 				            <div class="thumbnail">
+				            	<a href="#" class="btn btn-danger">-10%</a>
 				                <img class="group list-group-image" src="images/mobile.jpg" alt="" />
 				                <img class="group hover-icon-eye" src="images/details.svg" alt="" />
 				                <img class="group hover-icon-cart" src="images/add_to_cart.svg" alt="" />
@@ -57,7 +58,7 @@
 				                                $21.000</p>
 				                        </div>
 				                        <div class="col-xs-12 col-md-6">
-				                            <i class="glyphicon glyphicon-heart pull-right heart"></i>
+				                        	<img class="pull-right heart" src="images/favourite.svg">
 				                            
 				                        </div>
 				                    </div>

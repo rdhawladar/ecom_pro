@@ -14,6 +14,10 @@ a:hover, a:focus {
   background: #43C1B6;
 }
 
+.contact, .collect {
+  width: 100%;
+}
+
 .color-text {
   color: #43C1B6;
 }
@@ -398,6 +402,7 @@ ul.CTAs a {
 
 .heart {
   font-size: 20px;
+  width: 30%;
 }
 
 /* ---------------------------------------------------
@@ -470,6 +475,24 @@ ul.CTAs a {
   table#cart tfoot td .btn {
     display: block;
   }
+}
+.request .request-item {
+  background: #FBFCFE;
+  margin: 15px auto;
+}
+.request .input-box .input-group {
+  width: 100%;
+  margin: 15px auto;
+  background: #F0F0F0;
+  padding: 15px;
+}
+.request .input-box .input-group select {
+  background: #F0F0F0;
+  border: none;
+  box-shadow: 0 0 0;
+  text-align-last: right;
+  padding-right: 50%;
+  color: red;
 }
 
 /*# sourceMappingURL=css/style.css.map */

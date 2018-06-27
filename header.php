@@ -18,7 +18,7 @@
 					<li><a href="#">Shop</a></li>
 					<li><a href="travel.php">Add Travel</a></li>
 					<li><a href="#">Orders</a></li>
-					<li><a href="#">Request</a></li>
+					<li><a href="request.php">Request</a></li>
 					<li><a href="#">Setting</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
