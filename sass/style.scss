@@ -87,7 +87,7 @@ i, span {
     text-align: left;
   }
   .hide-on-open-sidebar{
-  	display: block;
+    display: none;
   }
   .search-input{
     margin: 0 auto;
@@ -139,6 +139,9 @@ i, span {
 	.sidebar-header .open, .CTAs {
 		display: none;
 	}
+  .hide-on-open-sidebar{
+    display: block;
+  }
 	.sidebar-header .close {
 	  display: block;
     margin-right: 0;

@@ -16,7 +16,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="#">Search</a></li>
 					<li><a href="#">Shop</a></li>
-					<li><a href="#">Add Travel</a></li>
+					<li><a href="travel.php">Add Travel</a></li>
 					<li><a href="#">Orders</a></li>
 					<li><a href="#">Request</a></li>
 					<li><a href="#">Setting</a></li>

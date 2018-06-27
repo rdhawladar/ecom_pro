@@ -25,38 +25,65 @@
 
         <!-- Page Content Holder -->
         <div id="content">
-			<?php include('header.php') ?>
-			<div class="container-fluid">
+      			<?php include('header.php') ?>
+      			<div class="container-fluid">
 
- <div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <div class="input-group-btn">
+       
 
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        </button>
-        	<img src="images/search.svg" class="form-control"> 
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-  <select class="form-control" id="sel1">
-    <option>Country</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-  </select>
-    </div><!-- /input-group -->
-</div><!-- /.row -->
-			</div>
+                <div class="col-md-12" style="margin: 20px auto;">
+                  <?php for($i = 1; $i<=3; $i++) {?>
+                    <div class="row" style="background: #FBFCFE; margin: 20px auto; padding: 15px;">
+                            <div class="col-lg-6">
+                              <div class="input-group">
+                                  <div class="input-group">
+                                    <div class="input-group-btn">
+                                      <!-- Button and dropdown menu -->
+                                      <img src="images/destination.svg" style="width: 20%">
+                                      <a class="btn" style="margin-right: 30px; ">alskdf alsdkfj 
+
+                                      </a>
+                                    </div>
+                                    <select class="form-control" id="sel1" style="border:none; box-shadow: 0 0 0; background: #FBFCFE;">
+                                      <option><span style="color: red;">Country</span></option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </div>
+                              </div><!-- /input-group -->
+                            </div><!-- /.row -->
+
+                            <div class="col-lg-6">
+                              <div class="input-group">
+                                  <div class="input-group">
+                                    <div class="input-group-btn">
+                                      <!-- Button and dropdown menu -->
+                                      <img src="images/airport.svg" style="width: 20%">
+                                      <a class="btn" style="margin-right: 30px; ">alskdf alsdkfj 
+
+                                      </a>
+                                    </div>
+                                    <select class="form-control" id="sel1" style="border:none; box-shadow: 0 0 0; background: #FBFCFE;">
+                                      <option>Country</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </div>
+                              </div><!-- /input-group -->
+                            </div><!-- /.row -->
+                          
+                    </div>
+                  <?php }?>
+                </div>
+                <a href="" class="btn btn-common" style="background: url(images/destination.svg) no-repeat #43C1B6;
+    background-size: 16% 57%;
+    padding: 1% 5%;
+    background-position: 10px ">Add Return Route</a>
+            </div>
+
         </div>
-    </div>
+      </div>
 
 	<script type="text/javascript">
 		$(document).ready(function () {

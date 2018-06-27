@@ -80,7 +80,7 @@ i, span {
   text-align: left;
 }
 #sidebar .hide-on-open-sidebar {
-  display: block;
+  display: none;
 }
 #sidebar .search-input {
   margin: 0 auto;
@@ -122,6 +122,9 @@ i, span {
 }
 #sidebar.active .sidebar-header .open, #sidebar.active .CTAs {
   display: none;
+}
+#sidebar.active .hide-on-open-sidebar {
+  display: block;
 }
 #sidebar.active .sidebar-header .close {
   display: block;
@@ -311,6 +314,7 @@ ul.CTAs a {
 }
 .thumbnail:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 .thumbnail:hover .hover-icon-cart, .thumbnail:hover .hover-icon-eye {
   width: 8%;
