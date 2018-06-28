@@ -1,0 +1,40 @@
+@import "variable";
+
+.order {
+  .layout-2{
+    p{
+      margin: 25px auto;
+      .card {
+        width: 15%;
+      }
+      .payoneer, .paypal{
+        width: 50%;
+      }
+    }
+  }
+
+  .saved-card{
+    margin-top: 24px;
+  }
+
+  .btn-active, .alert{
+    background: $color_light_gray;
+  }
+
+  .alert{
+    border-radius: 0;
+  }
+
+  .save-1,.save-2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px auto;
+  }
+  .form-control{
+    padding: 20px 12px;
+  }
+
+  .footer{
+    margin-top: 50px;
+  }
+}

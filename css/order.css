@@ -1,0 +1,31 @@
+.order .layout-2 p {
+  margin: 25px auto;
+}
+.order .layout-2 p .card {
+  width: 15%;
+}
+.order .layout-2 p .payoneer, .order .layout-2 p .paypal {
+  width: 50%;
+}
+.order .saved-card {
+  margin-top: 24px;
+}
+.order .btn-active, .order .alert {
+  background: #E0E4EF;
+}
+.order .alert {
+  border-radius: 0;
+}
+.order .save-1, .order .save-2 {
+  width: 90%;
+  padding: 18px;
+  margin: 5px auto;
+}
+.order .form-control {
+  padding: 20px 12px;
+}
+.order .footer {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=css/order.css.map */
