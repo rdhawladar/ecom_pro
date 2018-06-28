@@ -26,9 +26,9 @@
 							<div class="vendor">
 								<p>Product Vendor</p>
 								<div class="vendor-img">
-									<img src="images/demo.jpg">
-									<img src="images/demo.jpg">
-									<img src="images/demo.jpg">
+									<img src="images/amazon.svg">
+									<img src="images/ebay.svg">
+									<img src="images/amazon.svg">
 									
 								</div>
 								
@@ -61,9 +61,9 @@
 	            	</li>
 	            </ul>
 	            <ul class="social list-unstyled ">
-	                <li><a href="#"><img src="images/social/facebook.svg"> </a></li>
-	                <li><a href="#"><img src="images/social/instagram.svg"></i> </a></li>
 	                <li><a href="#"><img src="images/social/twitter.svg"></i> </a></li>
+	                <li><a href="#"><img src="images/social/instagram.svg"></i> </a></li>
+	                <li><a href="#"><img src="images/social/facebook.svg"> </a></li>
 	            </ul>
             	
             </div>
