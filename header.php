@@ -18,6 +18,7 @@
 					<li><a href="#">Shop</a></li>
 					<li><a href="travel.php">Add Travel</a></li>
 					<li><a href="order.php">Orders</a></li>
+					<li><a href="payment_confirmation.php">Payment Confirmation</a></li>
 					<li><a href="request.php">Request</a></li>
 					<li><a href="#">Setting</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#loginModal">Log In</a></li>
