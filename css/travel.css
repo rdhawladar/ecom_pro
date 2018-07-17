@@ -1,0 +1,75 @@
+.travel .navbar-nav li {
+  padding: 0px 10px;
+  border-right: 1px solid #aaa;
+  margin: 10px auto;
+}
+.travel .navbar-nav li:last-child {
+  border-right: none;
+}
+.travel .navbar-nav a {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+.travel .navbar-nav a.active {
+  background: #ED8132;
+  color: #fff;
+}
+.travel .layer-1, .travel .layer-2, .travel .layer-3 {
+  margin: 10px auto;
+}
+.travel .layer-2, .travel .layer-3, .travel .layer-4 {
+  background: #FBFCFE;
+}
+.travel .layer-3 {
+  background: #444;
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.travel .layer-3 a {
+  background: #ED8132;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+.travel .layer-3 a, .travel .layer-3 span {
+  padding: 5px 10px;
+}
+.travel .layer-4 {
+  margin: 0 auto;
+}
+.travel .layer-4 table {
+  margin-top: 20px;
+}
+.travel .layer-4 table td:first-child {
+  width: 10%;
+}
+.travel .layer-4 table td:first-child img:hover {
+  filter: invert(66%) sepia(45%) saturate(3305%) hue-rotate(339deg) brightness(97%) contrast(91%);
+}
+.travel .layer-4 table td {
+  border-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.travel .layer-4 .left-table tr:nth-child(-n+4) td:last-child {
+  border-right: 1px solid #aaa;
+}
+
+.setting .profile-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+}
+.setting .location-img {
+  width: 60%;
+}
+.setting .btn-round {
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+
+/*# sourceMappingURL=css/travel.css.map */

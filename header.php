@@ -14,13 +14,14 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Search</a></li>
+					<li><a href="dashboard.php">Dashboard</a></li>
 					<li><a href="#">Shop</a></li>
 					<li><a href="travel.php">Add Travel</a></li>
+					<li><a href="travel2.php">Add Travel 2</a></li>
 					<li><a href="order.php">Orders</a></li>
 					<li><a href="payment_confirmation.php">Payment Confirmation</a></li>
 					<li><a href="request.php">Request</a></li>
-					<li><a href="#">Setting</a></li>
+					<li><a href="setting.php">Setting</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#loginModal">Log In</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
