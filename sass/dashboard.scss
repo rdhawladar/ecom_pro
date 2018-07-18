@@ -1,11 +1,12 @@
 
-$toggler-size: 40px;
-$toggler-color: white;
+@import "variable";
+$toggler-size: 50px;
+$toggler-color: $color_dark;
 $toggler-transition: transform .5s, top .5s;
 
-$item-count: 6;
-$item-size: $toggler-size * 2;
-$item-color: white;
+$item-count: 7;
+$item-size: $toggler-size * 2 ;
+$item-color: $color_dark;
 $item-transition: .5s;
 
 @mixin size ($width, $height: $width) {
@@ -18,8 +19,8 @@ $item-transition: .5s;
   display: block;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
+  // right: 0;
+  // left: 0;
   margin: auto;
 }
 
@@ -32,13 +33,12 @@ $item-transition: .5s;
   transition: $toggler-transition;
 }
 
-// styles
-
-body {
-  overflow: hidden;
-  background: #aaa;
+.dashboard{
+    .content{
+        margin-top: 20%;
+        text-align: center;
+    }
 }
-
 .menu-toggler {
   @include absolute-center;
   @include size($toggler-size);
@@ -82,6 +82,13 @@ body {
   @for $i from 0 through $item-count - 1 {
     .menu-item:nth-child(#{$i + 1}) {
       transform: rotate(360deg / $item-count * $i) translateX(-$item-size - 30px);
+      a{
+        margin: -10px;
+      }
+
+      span{
+          transform: rotate(-360deg / $item-count * $i) translateX($item-size - 60px) translateY($item-size);
+      }
     }
   }
   
@@ -123,6 +130,11 @@ body {
   display: block;
   opacity: 0;
   transition: $item-transition;
+  img{
+    filter: invert(100%);
+    width: 40%;
+    display: inline-block;
+  }
 }
 
 .menu-item a {
@@ -131,18 +143,20 @@ body {
   height: inherit;
   line-height: $item-size;
   color: rgba($item-color, 0.7);
-  background: rgba(white, 0.2);
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
-  font-size: $item-size/2;
+  background: $toggler-color;
+  // font-size: $item-size/2;
   pointer-events: none;
   transition: .2s;
   
-  &:hover {
-    box-shadow: 0 0 0 $item-size/40 rgba(white, 0.3);
-    color: $item-color;
-    background: rgba(white, 0.3);
-    font-size: $item-size/1.8;
-  }
+  /* &:hover {
+    box-shadow: 0 0 0 $item-size/40 rgba(black, 0.3);
+  } */
 }
+.menu-item:hover{
+  @include size($item-size + 20px);
+
+}
+

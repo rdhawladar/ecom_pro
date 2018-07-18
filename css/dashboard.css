@@ -1,6 +1,6 @@
-body {
-  overflow: hidden;
-  background: linear-gradient(to right, #fc354c, #0abfbc);
+.dashboard .content {
+  margin-top: 20%;
+  text-align: center;
 }
 
 .menu-toggler {
@@ -8,17 +8,15 @@ body {
   display: block;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   margin: auto;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   z-index: 2;
   opacity: 0;
   cursor: pointer;
 }
 .menu-toggler:hover + label, .menu-toggler:hover + label:before, .menu-toggler:hover + label:after {
-  background: white;
+  background: #ED8132;
 }
 
 .menu-toggler:checked + label {
@@ -26,7 +24,7 @@ body {
 }
 .menu-toggler:checked + label:before, .menu-toggler:checked + label:after {
   top: 0;
-  width: 40px;
+  width: 50px;
   transform-origin: 50% 50%;
 }
 .menu-toggler:checked + label:before {
@@ -40,60 +38,103 @@ body {
   opacity: 1;
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(1) {
-  transform: rotate(0deg) translateX(-110px);
+  transform: rotate(0deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(1) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(1) span {
+  transform: rotate(0deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(2) {
-  transform: rotate(60deg) translateX(-110px);
+  transform: rotate(51.4285714286deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(2) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(2) span {
+  transform: rotate(-51.4285714286deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(3) {
-  transform: rotate(120deg) translateX(-110px);
+  transform: rotate(102.8571428571deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3) span {
+  transform: rotate(-102.8571428571deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(4) {
-  transform: rotate(180deg) translateX(-110px);
+  transform: rotate(154.2857142857deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) span {
+  transform: rotate(-154.2857142857deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(5) {
-  transform: rotate(240deg) translateX(-110px);
+  transform: rotate(205.7142857143deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5) span {
+  transform: rotate(-205.7142857143deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(6) {
-  transform: rotate(300deg) translateX(-110px);
+  transform: rotate(257.1428571429deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6) span {
+  transform: rotate(-257.1428571429deg) translateX(40px) translateY(100px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) {
+  transform: rotate(308.5714285714deg) translateX(-130px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) a {
+  margin: -10px;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) span {
+  transform: rotate(-308.5714285714deg) translateX(40px) translateY(100px);
 }
 .menu-toggler:checked ~ ul .menu-item a {
   pointer-events: auto;
 }
 
 .menu-toggler + label {
-  width: 40px;
-  height: 5px;
+  width: 50px;
+  height: 6.25px;
   display: block;
   z-index: 1;
-  border-radius: 2.5px;
-  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3.125px;
+  background: rgba(237, 129, 50, 0.7);
   transition: transform 0.5s, top 0.5s;
   position: absolute;
   display: block;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   margin: auto;
 }
 .menu-toggler + label:before, .menu-toggler + label:after {
-  width: 40px;
-  height: 5px;
+  width: 50px;
+  height: 6.25px;
   display: block;
   z-index: 1;
-  border-radius: 2.5px;
-  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3.125px;
+  background: rgba(237, 129, 50, 0.7);
   transition: transform 0.5s, top 0.5s;
   content: "";
   position: absolute;
   left: 0;
 }
 .menu-toggler + label:before {
-  top: 10px;
+  top: 12.5px;
 }
 .menu-toggler + label:after {
-  top: -10px;
+  top: -12.5px;
 }
 
 .menu-item:nth-child(1) a {
@@ -101,23 +142,27 @@ body {
 }
 
 .menu-item:nth-child(2) a {
-  transform: rotate(-60deg);
+  transform: rotate(-51.4285714286deg);
 }
 
 .menu-item:nth-child(3) a {
-  transform: rotate(-120deg);
+  transform: rotate(-102.8571428571deg);
 }
 
 .menu-item:nth-child(4) a {
-  transform: rotate(-180deg);
+  transform: rotate(-154.2857142857deg);
 }
 
 .menu-item:nth-child(5) a {
-  transform: rotate(-240deg);
+  transform: rotate(-205.7142857143deg);
 }
 
 .menu-item:nth-child(6) a {
-  transform: rotate(-300deg);
+  transform: rotate(-257.1428571429deg);
+}
+
+.menu-item:nth-child(7) a {
+  transform: rotate(-308.5714285714deg);
 }
 
 .menu-item {
@@ -125,35 +170,39 @@ body {
   display: block;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   margin: auto;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   display: block;
   opacity: 0;
   transition: 0.5s;
+}
+.menu-item img {
+  filter: invert(100%);
+  width: 40%;
+  display: inline-block;
 }
 
 .menu-item a {
   display: block;
   width: inherit;
   height: inherit;
-  line-height: 80px;
-  color: rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.2);
+  line-height: 100px;
+  color: rgba(237, 129, 50, 0.7);
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
-  font-size: 40px;
+  background: #ED8132;
   pointer-events: none;
   transition: 0.2s;
+  /* &:hover {
+    box-shadow: 0 0 0 $item-size/40 rgba(black, 0.3);
+  } */
 }
-.menu-item a:hover {
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
-  color: white;
-  background: rgba(255, 255, 255, 0.3);
-  font-size: 44.4444444444px;
+
+.menu-item:hover {
+  width: 120px;
+  height: 120px;
 }
 
 /*# sourceMappingURL=css/dashboard.css.map */
