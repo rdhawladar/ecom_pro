@@ -73,7 +73,7 @@
 					<div class="col-md-12 footer">
 						<a href="#" class="btn color-text"><i class="fa fa-angle-left"></i> Continue Shopping </a>
 						
-						<a href="#" class="btn btn-common pull-right">Continue to Cart <i class="fa fa-angle-right"></i></a>
+						<a href="#" class="btn btn-common btn-round pull-right">Continue to Cart <i class="fa fa-angle-right"></i></a>
 						
 					</div>
 					

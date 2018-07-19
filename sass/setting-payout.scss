@@ -1,0 +1,26 @@
+@import "variable";
+
+.setting-payout{
+    .layer-2{
+      label{
+        margin-right: 10px;
+        font-weight: normal;
+      }
+       input, select{
+          width: auto;
+          display: inline;
+          margin-left: 5px;
+
+       }
+       .dollar, input, select{
+        font-size: 25px;
+       }
+    }
+
+    .layer-1, .layer-2, .layer-3{
+       margin: 20px auto;
+    }
+    .layer-2{
+      background: $color_light_gray;
+    }
+}

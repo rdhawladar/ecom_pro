@@ -22,6 +22,7 @@
 					<li><a href="payment_confirmation.php">Payment Confirmation</a></li>
 					<li><a href="request.php">Request</a></li>
 					<li><a href="setting.php">Setting</a></li>
+					<li><a href="setting-payout.php">Setting Payout</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#loginModal">Log In</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
