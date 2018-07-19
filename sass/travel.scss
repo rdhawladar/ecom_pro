@@ -87,3 +87,38 @@
     width: 40%;
   }
 }
+
+.setting-payment{
+  .board{
+    margin: 10px auto;
+    .content{
+      padding: 15px;
+      border: 1px solid #aaa;
+    height: 80px;
+    /* display: block; */
+    vertical-align: middle;
+    line-height: 50px;
+      &:hover{
+        background: $color_light_gray;
+        border: 1px solid transparent;
+
+      }
+      .dollar{
+    font-size: 35px;
+    vertical-align: middle;
+    float: right;
+      }
+      .title{
+        vertical-align: middle;
+      }
+    }
+      .content.left{
+        margin-right: 5px;
+        
+      }
+      .content.right{
+        margin-left: 5px;
+
+      }
+  }
+}

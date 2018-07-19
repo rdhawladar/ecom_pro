@@ -72,4 +72,34 @@
   width: 40%;
 }
 
+.setting-payment .board {
+  margin: 10px auto;
+}
+.setting-payment .board .content {
+  padding: 15px;
+  border: 1px solid #aaa;
+  height: 80px;
+  /* display: block; */
+  vertical-align: middle;
+  line-height: 50px;
+}
+.setting-payment .board .content:hover {
+  background: #E0E4EF;
+  border: 1px solid transparent;
+}
+.setting-payment .board .content .dollar {
+  font-size: 35px;
+  vertical-align: middle;
+  float: right;
+}
+.setting-payment .board .content .title {
+  vertical-align: middle;
+}
+.setting-payment .board .content.left {
+  margin-right: 5px;
+}
+.setting-payment .board .content.right {
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=css/travel.css.map */
