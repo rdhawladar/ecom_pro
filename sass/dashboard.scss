@@ -1,4 +1,4 @@
-// helpers
+
 @import "variable";
 $toggler-size: 50px;
 $toggler-color: $color_dark;
@@ -32,8 +32,6 @@ $item-transition: .5s;
   background: rgba($toggler-color, 0.7);
   transition: $toggler-transition;
 }
-
-// styles
 
 .dashboard{
     .content{

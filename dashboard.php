@@ -16,12 +16,8 @@
   <script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 
-<style type="text/css">
-  
-</style>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 </head>
 <body>
 
@@ -76,7 +72,5 @@
         </div>
       </div>
 
-	<script type="text/javascript">
-	</script>
 </body>
 </html>

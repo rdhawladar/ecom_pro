@@ -27,18 +27,45 @@
         <!-- Page Content Holder -->
         <div id="content" >
       			<?php include('header.php') ?>
-      			<div class="container-fluid setting travel ">
+      			<div class="container-fluid setting-payment travel ">
                 <div class="col-md-12">
                     <div class="row layer-1">
                       <a href="#" class="pull-left">My Settings</a>
                       <a href="#" class="pull-right">Refer a friend</a>
                     </div>
+
                     <div class="row layer-2">
                         <ul class="nav navbar-nav">
-                          <li><a href="setting.php" class="active">Profile</a></li>
+                          <li><a href="setting.php">Profile</a></li>
                           <li><a href="#">Change Password</a></li>
-                          <li><a href="setting-payment.php">Payment</a></li>
+                          <li><a href="setting-payment.php" class="active">Payment</a></li>
                         </ul>
+                    </div>
+
+                    <div class="row board">
+                        <p>Traveller Board</p>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="content left">
+                                  <span class="title">Pending Amount</span>
+                                  <span class="dollar">$879</span>
+                                </div>
+                              
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="content right">
+                                  <span class="title">Available Amount</span>
+                                  <span class="dollar pull-right"><a href="#" class="btn btn-common btn-round pull-right">Pay Out</a></span>
+                                  <span class="dollar pull-right">$879</span>
+                                  
+                                </div>
+                              
+                            </div>
+                          
+                        </div>
                     </div>
                     <div class="row layer-3">
                         <div class="details">
