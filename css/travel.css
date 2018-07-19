@@ -2,13 +2,18 @@
   padding: 0px 10px;
   border-right: 1px solid #aaa;
   margin: 10px auto;
+  width: 200px;
+  text-align: center;
 }
 .travel .navbar-nav li:last-child {
   border-right: none;
 }
 .travel .navbar-nav a {
-  padding: 6px 10px;
+  padding: 6px 0;
   border-radius: 4px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }
 .travel .navbar-nav a.active {
   background: #ED8132;
@@ -77,7 +82,7 @@
 }
 .setting-payment .board .content {
   padding: 15px;
-  border: 1px solid #aaa;
+  border: 1px solid #eee;
   height: 80px;
   /* display: block; */
   vertical-align: middle;
@@ -87,13 +92,13 @@
   background: #E0E4EF;
   border: 1px solid transparent;
 }
+.setting-payment .board .content .payout {
+  padding: 6px 30%;
+}
 .setting-payment .board .content .dollar {
   font-size: 35px;
   vertical-align: middle;
   float: right;
-}
-.setting-payment .board .content .title {
-  vertical-align: middle;
 }
 .setting-payment .board .content.left {
   margin-right: 5px;
@@ -101,5 +106,28 @@
 .setting-payment .board .content.right {
   margin-left: 5px;
 }
+.setting-payment .final-layer .card img {
+  margin-bottom: 10px;
+}
+.setting-payment .final-layer .card-type {
+  width: 60%;
+}
+.setting-payment .final-layer .middle {
+  background: #E0E4EF;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.setting-payment .final-layer .right input {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5%;
+}
+.setting-payment .final-layer .left, .setting-payment .final-layer .center, .setting-payment .final-layer .right {
+  margin-top: 15px;
+}
+.setting-payment .final-layer .left, .setting-payment .final-layer .center {
+  border-right: 1px solid #aaa;
+}
 
-/*# sourceMappingURL=css/travel.css.map */
+/*# sourceMappingURL=travel.css.map */

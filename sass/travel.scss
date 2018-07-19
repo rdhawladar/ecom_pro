@@ -6,13 +6,18 @@
       padding: 0px 10px;
       border-right: 1px solid #aaa;
       margin: 10px auto;
+      width: 200px;
+      text-align: center;
       &:last-child{
         border-right: none;
       }
     }
     a{
-      padding: 6px 10px;
+      padding: 6px 0;
       border-radius: 4px;
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
     }
     a.active{
       background: $color_dark;
@@ -93,32 +98,62 @@
     margin: 10px auto;
     .content{
       padding: 15px;
-      border: 1px solid #aaa;
-    height: 80px;
-    /* display: block; */
-    vertical-align: middle;
-    line-height: 50px;
+      border: 1px solid #eee;
+      height: 80px;
+      /* display: block; */
+      vertical-align: middle;
+      line-height: 50px;
       &:hover{
         background: $color_light_gray;
         border: 1px solid transparent;
 
       }
-      .dollar{
-    font-size: 35px;
-    vertical-align: middle;
-    float: right;
+      .payout{
+          padding: 6px 30%;
       }
-      .title{
-        vertical-align: middle;
+      .dollar{
+          font-size: 35px;
+          vertical-align: middle;
+          float: right;
       }
     }
-      .content.left{
-        margin-right: 5px;
-        
-      }
-      .content.right{
-        margin-left: 5px;
+    .content.left{
+      margin-right: 5px;
+      
+    }
+    .content.right{
+      margin-left: 5px;
 
+    }
+
+  }
+  .final-layer{
+    .card{
+      img{
+        margin-bottom: 10px ;
       }
+    }
+    .card-type{
+      width: 60%;
+    }
+    .middle{
+      background: $color_light_gray;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .right{
+       input{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 5%;
+       }
+    }
+    .left, .center, .right{
+      margin-top: 15px;
+    }
+    .left, .center{
+      border-right: 1px solid #aaa;
+    }
   }
 }

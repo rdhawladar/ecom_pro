@@ -43,12 +43,16 @@
                     </div>
 
                     <div class="row board">
-                        <p>Traveller Board</p>
+                        <p><b>Traveller Board </b></p>
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="content left">
-                                  <span class="title">Pending Amount</span>
-                                  <span class="dollar">$879</span>
+                                  <div class="col-md-6">
+                                      <span>Pending Amount</span>
+                                  </div>
+                                  <div class="col-md-6 text-right">
+                                      <span class="dollar"><b>$879</b></span>
+                                  </div>
                                 </div>
                               
                             </div>
@@ -57,116 +61,135 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="content right">
-                                  <span class="title">Available Amount</span>
-                                  <span class="dollar pull-right"><a href="#" class="btn btn-common btn-round pull-right">Pay Out</a></span>
-                                  <span class="dollar pull-right">$879</span>
-                                  
+                                  <div class="col-md-4">
+                                      <span>Available Amount</span>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <span class="dollar"> <b>$5042</b> </span>
+                                  </div>
+                                  <div class="col-md-4 text-right">
+                                      <a href="#" class="btn btn-common btn-round payout">Pay Out</a>
+                                  </div>
                                 </div>
-                              
                             </div>
                           
                         </div>
                     </div>
-                    <div class="row layer-3">
-                        <div class="details">
-                          <span>Welcome Back!</span>
-                          <a href="#" class="active pull-right">Edit</a>
-                          <a href="#" class="active pull-right">Delete My Account</a>
-                        </div>
-                    </div>
-                    <div class="row layer-4">
-                        <div class="row">
-                          <div class="col-md-12">
-                            <div class="row">
-                              <div class="col-md-6">
-                                  <table class="table table-responsive left-table" >
-                                    <tr>
-                                      <td rowspan="7"><img src="images/user.jpg" class="img-responsive profile-img"></td>
-                                      <td>Name</td>
-                                      <td>John Doe</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Location</td>
-                                      <td>Dhaka, Bangladesh</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Gender</td>
-                                      <td>Male</td>
-                                    </tr>
-                                    <tr>
-                                      <td colspan="3">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                      <td>About Me</td>
-                                      <td>Florida, USA</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Registered</td>
-                                      <td>20-05-2018</td>
-                                    </tr>
-                                    <tr>
-                                      <td colspan="3">
 
-                                          <a href="#" class="btn btn-round btn-common">Change Photo</a>
-                                          <a href="#" class="btn btn-round btn-common">Change Password</a>
-                                      </td>
-                                    </tr>
-                                  </table>
-                              </div><!-- /.row -->
-                              <div class="col-md-6">
-                                  <table class="table table-responsive">
-                                    <tr>
-                                      <td rowspan="6"><img class="img-responsive location-img" src="images/location.svg"></td>
-                                      <td>Address</td>
-                                      <td>522/2, Metro Lane</td>
-                                    </tr>
-                                    <tr>
-                                      <td>City</td>
-                                      <td>Dhaka</td>
-                                    </tr>
-                                    <tr>
-                                      <td>State</td>
-                                      <td>Mirpur</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Zipcode</td>
-                                      <td>1216</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Country</td>
-                                      <td>Bangladesh</td>
-                                    </tr>
-                                  </table>
-                              </div><!-- /.row -->
+                    <div class="row board">
+                        <p><b>Buyer Board </b></p>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="content left">
+                                  <div class="col-md-6">
+                                      <span>Purchased Amount</span>
+                                  </div>
+                                  <div class="col-md-6 text-right">
+                                      <span class="dollar"><b>$200</b></span>
+                                  </div>
+                                </div>                              
                             </div>
-                            
-                          </div>
                           
                         </div>
-                        
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="content right">
+                                  <div class="col-md-4">
+                                      <span>XXXXX Amount</span>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <span class="dollar"> <b>$323</b> </span>
+                                  </div>
+                                  <div class="col-md-4 text-right">
+                                      <a href="#" class="btn btn-common btn-round payout">Contact</a>
+                                  </div>
+                                </div>
+                            </div>
+                          
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><b>General Setting</b></p>
+                            <div class="details  layer-3">
+                              <span>Payment Action</span>
+                              <a href="#" class="active pull-right">Cancel</a>
+                              <a href="#" class="active pull-right">Save</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row final-layer">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="content">
+                                  <div class="col-md-3 left">
+                                      <div class="row">
+                                          <div class="card">
+                                              <div class="col-md-2">
+                                                    <img src="images/card.svg" class="img-responsive card-icon">
+                                              </div>
+                                              <div class="col-md-6">
+                                                    <img src="images/demo.jpg" class="img-responsive card-type">
+                                                    <img src="images/demo.jpg" class="img-responsive card-type">
+                                                    <img src="images/demo.jpg" class="img-responsive card-type">
+                                              </div>
+                                            
+                                            
+                                          </div>
+
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 center">
+                                      <div class="middle text-center">
+                                          <h3>...XXXX 4589</h3>
+                                          <a href="#" class="btn btn-common btn-same"> Edit</a>
+                                          <a href="#" class="btn btn-common btn-same"> Remove</a>
+                                      </div>
+                                      <div class="middle text-center">
+                                          <h3>...XXXX 4589</h3>
+                                          <a href="#" class="btn btn-common btn-same"> Edit</a>
+                                          <a href="#" class="btn btn-common btn-same"> Remove</a>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-5 text-right right">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <input class="form-control" type="text" name="no" placeholder="XXXX-XXXX-XXXX-4321">
+                                            </div>
+                                          
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input class="form-control" type="text" name="date" placeholder="DD-MM-YYYY">
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input class="form-control" type="text" name="ccv" placeholder="CCV">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-9 text-left" >
+                                                <input type="checkbox" name="">
+                                                <label>Primary Card</label>
+                                            </div>
+                                            <div class="col-md-9 text-center" >
+                                                <a href="#" class="btn btn-common btn-round">Add New Card</a>
+                                            </div>
+                                          
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
         </div>
       </div>
-
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#sidebar-header, #hidden-search-icon').on('click', function () {
-				$('#sidebar').toggleClass('active');
-			});
-		});
-
-		// Slider range for price 
-		$("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
-
-
-		// Grid system view
-$(document).ready(function() {
-    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
-    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
-});
-	</script>
 </body>
 </html>

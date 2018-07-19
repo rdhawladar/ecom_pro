@@ -23,6 +23,15 @@ a:hover, a:focus {
   color: #fff;
 }
 
+.btn-round {
+  border-radius: 20px;
+  min-width: 10%;
+}
+
+.btn-same {
+  min-width: 100px;
+}
+
 .contact, .collect {
   width: 100%;
 }
@@ -567,4 +576,4 @@ ul.CTAs a {
 
 /* ---! END Modal CSS for Login */
 
-/*# sourceMappingURL=css/style.css.map */
+/*# sourceMappingURL=style.css.map */
