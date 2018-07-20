@@ -112,7 +112,7 @@
           padding: 6px 30%;
       }
       .dollar{
-          font-size: 35px;
+          font-size: 30px;
           vertical-align: middle;
           float: right;
       }
@@ -161,8 +161,39 @@
 
 .setting-payout{
   .payout-input{
-    display: inline;
+    input, select{
+      display: inline;
+      font-size: 30px;
+      min-height: 45px;
+      width: 80%;
+      box-shadow: 0 0 5px $color_dark;
+      
+    }
+    select{
+      color: red;
+    }
+    span{
+      font-size: 30px;
+    }
+
   }
+  .top{
+    .content{
+      background: $color_light;
+      &:hover{
+        background: $color_light;
+      }
+    }
+    
+  }
+  .content{
+    border: none !important;
+  }
+  .second{
+      .content:hover{
+        background: transparent;
+      }
+    }
 
 }
 .modal-body{

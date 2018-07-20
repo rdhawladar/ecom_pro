@@ -96,7 +96,7 @@
   padding: 6px 30%;
 }
 .setting-payment .board .content .dollar {
-  font-size: 35px;
+  font-size: 30px;
   vertical-align: middle;
   float: right;
 }
@@ -131,8 +131,30 @@
   border-right: 1px solid #aaa;
 }
 
-.setting-payout .payout-input {
+.setting-payout .payout-input input, .setting-payout .payout-input select {
   display: inline;
+  font-size: 30px;
+  min-height: 45px;
+  width: 80%;
+  box-shadow: 0 0 5px #ED8132;
+}
+.setting-payout .payout-input select {
+  color: red;
+}
+.setting-payout .payout-input span {
+  font-size: 30px;
+}
+.setting-payout .top .content {
+  background: #FBFCFE;
+}
+.setting-payout .top .content:hover {
+  background: #FBFCFE;
+}
+.setting-payout .content {
+  border: none !important;
+}
+.setting-payout .second .content:hover {
+  background: transparent;
 }
 
 .modal-body .table-borderless td, .modal-body .table-borderless th {
