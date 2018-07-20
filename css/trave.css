@@ -118,11 +118,10 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.setting-payment .final-layer .right input[type=text] {
+.setting-payment .final-layer .right input {
   margin-bottom: 10px;
   font-size: 20px;
   padding: 5%;
-  box-shadow: 0 0 5px #ED8132;
 }
 .setting-payment .final-layer .left, .setting-payment .final-layer .center, .setting-payment .final-layer .right {
   margin-top: 15px;
@@ -131,24 +130,12 @@
   border-right: 1px solid #aaa;
 }
 
-.setting-payout .payout-input {
-  display: inline;
-}
-
 .modal-body .table-borderless td, .modal-body .table-borderless th {
   border: none;
-}
-.modal-body .table-borderless td img, .modal-body .table-borderless th img {
-  border-radius: 10px;
-  border: 1px solid #ED8132;
-  float: right;
-}
-.modal-body .payout-image {
-  width: 30%;
 }
 
 .modal-head {
   background: #E0E4EF;
 }
 
-/*# sourceMappingURL=css/travel.css.map */
+/*# sourceMappingURL=trave.css.map */
