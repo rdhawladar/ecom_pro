@@ -143,10 +143,11 @@
       margin-bottom: 10px;
     }
     .right{
-       input{
+       input[type="text"] {
         margin-bottom: 10px;
         font-size: 20px;
         padding: 5%;
+        box-shadow: 0 0 5px $color_dark;
        }
     }
     .left, .center, .right{
@@ -155,5 +156,11 @@
     .left, .center{
       border-right: 1px solid #aaa;
     }
+  }
+}
+
+.setting-payout{
+  .payout-input{
+    display: inline;
   }
 }

@@ -118,10 +118,11 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.setting-payment .final-layer .right input {
+.setting-payment .final-layer .right input[type=text] {
   margin-bottom: 10px;
   font-size: 20px;
   padding: 5%;
+  box-shadow: 0 0 5px #ED8132;
 }
 .setting-payment .final-layer .left, .setting-payment .final-layer .center, .setting-payment .final-layer .right {
   margin-top: 15px;
@@ -130,4 +131,8 @@
   border-right: 1px solid #aaa;
 }
 
-/*# sourceMappingURL=travel.css.map */
+.setting-payout .payout-input {
+  display: inline;
+}
+
+/*# sourceMappingURL=css/travel.css.map */
