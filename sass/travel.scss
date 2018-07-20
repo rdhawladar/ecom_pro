@@ -167,7 +167,9 @@
       min-height: 45px;
       width: 80%;
       box-shadow: 0 0 5px $color_dark;
-      
+    }
+    input:focus{
+      border: none;
     }
     select{
       color: red;

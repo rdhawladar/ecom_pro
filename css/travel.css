@@ -138,6 +138,9 @@
   width: 80%;
   box-shadow: 0 0 5px #ED8132;
 }
+.setting-payout .payout-input input:focus {
+  border: none;
+}
 .setting-payout .payout-input select {
   color: red;
 }
