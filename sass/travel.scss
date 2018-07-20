@@ -157,3 +157,15 @@
     }
   }
 }
+
+.setting-payout{
+
+}
+.modal-body{
+  .table-borderless td, .table-borderless th{
+    border: none;
+  }
+}
+.modal-head{
+  background: $color_light_gray;
+}
