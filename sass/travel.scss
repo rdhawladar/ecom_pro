@@ -164,6 +164,14 @@
 .modal-body{
   .table-borderless td, .table-borderless th{
     border: none;
+    img{
+      border-radius: 10px;
+      border: 1px solid $color_dark;
+      float: right;
+    }
+  }
+  .payout-image{
+    width: 30%;
   }
 }
 .modal-head{

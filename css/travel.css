@@ -133,6 +133,14 @@
 .modal-body .table-borderless td, .modal-body .table-borderless th {
   border: none;
 }
+.modal-body .table-borderless td img, .modal-body .table-borderless th img {
+  border-radius: 10px;
+  border: 1px solid #ED8132;
+  float: right;
+}
+.modal-body .payout-image {
+  width: 30%;
+}
 
 .modal-head {
   background: #E0E4EF;

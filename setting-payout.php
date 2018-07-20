@@ -92,7 +92,7 @@
                                   <tr>
                                     <td>Payout Amount</td>
                                     <td>$5042</td>
-                                    <td rowspan="7"><img src="images/demo.jpg" class="img-responsive"></td>
+                                    <td rowspan="3" colspan="3" class="payout-image"><img src="images/demo.jpg" class="img-responsive"></td>
                                   </tr>
                                   <tr>
                                     <td>Withdraw Method</td>
@@ -109,8 +109,8 @@
                     </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-common btn-round" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-common btn-round">Confirm</button>
+        <button type="button" class="btn btn-common btn-round btn-same" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-common btn-round btn-same">Confirm</button>
       </div>
     </div>
   </div>
