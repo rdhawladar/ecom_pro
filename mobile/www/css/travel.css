@@ -1,0 +1,179 @@
+.travel .navbar-nav li {
+  padding: 0px 10px;
+  border-right: 1px solid #aaa;
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+.travel .navbar-nav li:last-child {
+  border-right: none;
+}
+.travel .navbar-nav a {
+  padding: 6px 0;
+  border-radius: 4px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.travel .navbar-nav a.active {
+  background: #ED8132;
+  color: #fff;
+}
+.travel .layer-1, .travel .layer-2, .travel .layer-3 {
+  margin: 10px auto;
+}
+.travel .layer-2, .travel .layer-3, .travel .layer-4 {
+  background: #FBFCFE;
+}
+.travel .layer-3 {
+  background: #444;
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.travel .layer-3 a {
+  background: #ED8132;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+.travel .layer-3 a, .travel .layer-3 span {
+  padding: 5px 10px;
+}
+.travel .layer-4 {
+  margin: 0 auto;
+}
+.travel .layer-4 table {
+  margin-top: 20px;
+}
+.travel .layer-4 table td:first-child {
+  width: 10%;
+}
+.travel .layer-4 table td:first-child img:hover {
+  filter: invert(66%) sepia(45%) saturate(3305%) hue-rotate(339deg) brightness(97%) contrast(91%);
+}
+.travel .layer-4 table td {
+  border-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.travel .layer-4 .left-table tr:nth-child(-n+4) td:last-child {
+  border-right: 1px solid #aaa;
+}
+
+.setting .profile-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+}
+.setting .location-img {
+  width: 60%;
+}
+.setting .btn-round {
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+
+.setting-payment .board {
+  margin: 10px auto;
+}
+.setting-payment .board .content {
+  padding: 15px;
+  border: 1px solid #eee;
+  height: 80px;
+  /* display: block; */
+  vertical-align: middle;
+  line-height: 50px;
+}
+.setting-payment .board .content:hover {
+  background: #E0E4EF;
+  border: 1px solid transparent;
+}
+.setting-payment .board .content .payout {
+  padding: 6px 30%;
+}
+.setting-payment .board .content .dollar {
+  font-size: 30px;
+  vertical-align: middle;
+  float: right;
+}
+.setting-payment .board .content.left {
+  margin-right: 5px;
+}
+.setting-payment .board .content.right {
+  margin-left: 5px;
+}
+.setting-payment .final-layer .card img {
+  margin-bottom: 10px;
+}
+.setting-payment .final-layer .card-type {
+  width: 60%;
+}
+.setting-payment .final-layer .middle {
+  background: #E0E4EF;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.setting-payment .final-layer .right input[type=text] {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5%;
+  box-shadow: 0 0 5px #ED8132;
+}
+.setting-payment .final-layer .left, .setting-payment .final-layer .center, .setting-payment .final-layer .right {
+  margin-top: 15px;
+}
+.setting-payment .final-layer .left, .setting-payment .final-layer .center {
+  border-right: 1px solid #aaa;
+}
+
+.setting-payout .payout-input input, .setting-payout .payout-input select {
+  display: inline;
+  font-size: 30px;
+  min-height: 45px;
+  width: 80%;
+  box-shadow: 0 0 5px #ED8132;
+}
+.setting-payout .payout-input input:focus {
+  border: none;
+}
+.setting-payout .payout-input select {
+  color: red;
+}
+.setting-payout .payout-input span {
+  font-size: 30px;
+}
+.setting-payout .top .content {
+  background: #FBFCFE;
+}
+.setting-payout .top .content:hover {
+  background: #FBFCFE;
+}
+.setting-payout .content {
+  border: none !important;
+}
+.setting-payout .second .content:hover {
+  background: transparent;
+}
+
+.modal-body .table-borderless td, .modal-body .table-borderless th {
+  border: none;
+}
+.modal-body .table-borderless td img, .modal-body .table-borderless th img {
+  border-radius: 10px;
+  border: 1px solid #ED8132;
+  float: right;
+}
+.modal-body .payout-image {
+  width: 30%;
+}
+
+.modal-head {
+  background: #E0E4EF;
+}
+
+/*# sourceMappingURL=css/travel.css.map */

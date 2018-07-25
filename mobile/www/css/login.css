@@ -1,0 +1,84 @@
+/* ---Modal CSS for Login */
+.loginModal .login-content {
+  border-radius: 0;
+}
+.loginModal .modal-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.loginModal .modal-body .social-icon-modal {
+  margin: 5px auto;
+}
+.loginModal .modal-body .social-icon-modal p {
+  display: inline-block;
+}
+.loginModal .modal-body .social-icon-modal img {
+  width: 12%;
+  padding: 3px;
+  margin: 0 5px;
+}
+.loginModal .modal-body .social-icon-modal img:last-child {
+  width: 7%;
+}
+.loginModal .modal-body .btn-upload {
+  position: relative;
+  overflow: hidden;
+}
+.loginModal .modal-body .btn-upload input {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.loginModal .modal-body .modal-bottom {
+  color: #000;
+  margin-top: 10%;
+}
+.loginModal .modal-body .steps a {
+  width: 15px;
+  height: 15px;
+  background: red;
+  display: block;
+  border-radius: 50%;
+  opacity: 0.3;
+  float: right;
+  margin-left: 5px;
+}
+.loginModal .modal-body .btn-login {
+  width: 50%;
+  margin-top: 25%;
+  margin-bottom: 4%;
+}
+.loginModal .modal-body .form-control {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid;
+  padding: 0;
+  border-radius: 0;
+}
+.loginModal .modal-body .login-title {
+  margin: 10% auto;
+  margin: 15% auto;
+}
+.loginModal .modal-body .img-right {
+  height: 120px;
+  width: 100%;
+  margin: 10% auto;
+}
+.loginModal .modal-body .right-half {
+  padding: 10%;
+}
+.loginModal .footer-icon img {
+  width: 10%;
+  margin: 15px auto;
+  filter: invert(100%);
+  margin-right: 8px;
+}
+.loginModal .footer-icon .facebook {
+  width: 5% !important;
+}
+
+/* ---! END Modal CSS for Login */
+
+/*# sourceMappingURL=css/login.css.map */

@@ -1,0 +1,72 @@
+@import "variable";
+
+.order {
+  .layout-2{
+    p{
+      margin: 25px auto;
+      .card {
+        width: 15%;
+      }
+      .payoneer, .paypal{
+        width: 50%;
+      }
+    }
+  }
+
+  .saved-card{
+    margin-top: 24px;
+  }
+
+  .btn-active, .alert{
+    background: $color_light_gray;
+  }
+
+  .alert{
+    border-radius: 0;
+  }
+
+  .save-1,.save-2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px auto;
+  }
+  .form-control{
+    padding: 20px 12px;
+  }
+
+  .footer{
+    margin-top: 50px;
+  }
+}
+
+.payment-confirmation{
+   .color-light{
+      color: #aaa;
+   }
+   .alert{
+    background: $color_light_gray;
+    .layout{
+      margin: 10px a
+    }
+    .lay-l{
+      h1{
+        font-size: 50px;
+      }
+    }
+    .lay-r{
+      a{
+        margin-top: 15px;
+        margin-right: 20px;
+        padding: 10px 30px;
+      }
+    }
+  }
+  .bottom{
+    img{
+      width: 20%;
+      float: left;
+      border-radius: 8px;
+    }
+  }
+}
+

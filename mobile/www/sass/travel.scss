@@ -1,0 +1,216 @@
+@import "variable";
+
+.travel {
+  .navbar-nav{
+    li{
+      padding: 0px 10px;
+      border-right: 1px solid #aaa;
+      margin: 10px auto;
+      width: 200px;
+      text-align: center;
+      &:last-child{
+        border-right: none;
+      }
+    }
+    a{
+      padding: 6px 0;
+      border-radius: 4px;
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    a.active{
+      background: $color_dark;
+      color: #fff;
+    }
+  }
+
+  .layer-1, .layer-2, .layer-3{
+    margin: 10px auto;
+  }
+
+  .layer-2, .layer-3, .layer-4{
+    background: $color_light;
+  }
+  .layer-3{
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 0;
+    a{
+      background: $color_dark;
+      border-radius: 5px;
+      margin-right: 10px;
+      text-align: center;
+    }
+    a, span{
+      padding: 5px 10px;
+
+    }
+  }
+  .layer-4{
+    margin: 0 auto;
+    table{
+      margin-top: 20px;
+      td:first-child{
+          width: 10%;
+          img:hover{
+            filter: $color_filter;
+          }
+      }
+      td{
+          border-top: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+      }
+    }
+    .left-table{
+      tr:nth-child(-n+4){
+        td:last-child{
+          border-right: 1px solid #aaa;
+        }
+        
+      }
+    }
+  }
+}
+
+.setting{
+  .profile-img{
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: 1px solid red;
+  }
+  .location-img{
+    width: 60%;
+  }
+  .btn-round{
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 40%;
+  }
+}
+
+.setting-payment{
+  .board{
+    margin: 10px auto;
+    .content{
+      padding: 15px;
+      border: 1px solid #eee;
+      height: 80px;
+      /* display: block; */
+      vertical-align: middle;
+      line-height: 50px;
+      &:hover{
+        background: $color_light_gray;
+        border: 1px solid transparent;
+
+      }
+      .payout{
+          padding: 6px 30%;
+      }
+      .dollar{
+          font-size: 30px;
+          vertical-align: middle;
+          float: right;
+      }
+    }
+    .content.left{
+      margin-right: 5px;
+      
+    }
+    .content.right{
+      margin-left: 5px;
+
+    }
+
+  }
+  .final-layer{
+    .card{
+      img{
+        margin-bottom: 10px ;
+      }
+    }
+    .card-type{
+      width: 60%;
+    }
+    .middle{
+      background: $color_light_gray;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .right{
+       input[type="text"] {
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 5%;
+        box-shadow: 0 0 5px $color_dark;
+       }
+    }
+    .left, .center, .right{
+      margin-top: 15px;
+    }
+    .left, .center{
+      border-right: 1px solid #aaa;
+    }
+  }
+}
+
+.setting-payout{
+  .payout-input{
+    input, select{
+      display: inline;
+      font-size: 30px;
+      min-height: 45px;
+      width: 80%;
+      box-shadow: 0 0 5px $color_dark;
+    }
+    input:focus{
+      border: none;
+    }
+    select{
+      color: red;
+    }
+    span{
+      font-size: 30px;
+    }
+
+  }
+  .top{
+    .content{
+      background: $color_light;
+      &:hover{
+        background: $color_light;
+      }
+    }
+    
+  }
+  .content{
+    border: none !important;
+  }
+  .second{
+      .content:hover{
+        background: transparent;
+      }
+    }
+
+}
+.modal-body{
+  .table-borderless td, .table-borderless th{
+    border: none;
+    img{
+      border-radius: 10px;
+      border: 1px solid $color_dark;
+      float: right;
+    }
+  }
+  .payout-image{
+    width: 30%;
+  }
+}
+.modal-head{
+  background: $color_light_gray;
+}
