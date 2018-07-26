@@ -77,15 +77,11 @@
                     <div class="right-half">
                       
                       <img class="img-responsive img-right" src="images/demo.jpg" > 
-                      <h3 class="login-title">Welcome Himdadul!<br>You have successfully registered.<br><br>Please upload your photo & Set-up Profile.</h3>
-                      <form class="form-horizontal">
-                        <div class="file btn btn-lg btn-primary btn-upload">
-                          <span>+</span>
-                          <input type="file" name="file"/>
-                        </div>
-                        <button type="submit" class="btn btn-round btn-common btn-login">Profile Settings</button>
+                      <h3 class="login-title">It's Safe and Fastest!<br>Let's Get Started by checking our Policy...</h3>
+                      <form class="form-horizontal accept">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <button type="submit" class="btn btn-round btn-common btn-login btn-accept">Accept & Continue</button>
                       </form>
-                      <p class="modal-bottom">This is not me!</p>
                     </div>
                   </div>
                 </div>

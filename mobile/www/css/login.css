@@ -2,6 +2,10 @@
 .loginModal .login-content {
   border-radius: 0;
 }
+.loginModal .page-content {
+  background: url("../images/login.jpg") no-repeat;
+  background-size: cover;
+}
 .loginModal .modal-body {
   padding-top: 0;
   padding-bottom: 0;
@@ -22,7 +26,18 @@
 }
 .loginModal .modal-body .btn-upload {
   position: relative;
+  display: block;
   overflow: hidden;
+  width: 20%;
+  height: 80px;
+  background: #ED8132;
+  margin-bottom: -15%;
+}
+.loginModal .modal-body .btn-upload span {
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  left: 40%;
 }
 .loginModal .modal-body .btn-upload input {
   position: absolute;
@@ -49,6 +64,11 @@
   width: 50%;
   margin-top: 25%;
   margin-bottom: 4%;
+  font-size: 16px;
+  padding: 10px;
+}
+.loginModal .modal-body .btn-accept {
+  margin-top: 5% !important;
 }
 .loginModal .modal-body .form-control {
   border: none;

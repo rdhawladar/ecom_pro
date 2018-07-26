@@ -5,6 +5,11 @@
   .login-content{
     border-radius: 0;
   }
+  .page-content{
+    background: url("../images/login.jpg") no-repeat;
+    background-size: cover;
+
+  }
   .modal-body{
       padding-top: 0;
       padding-bottom: 0;
@@ -25,15 +30,26 @@
       }
 
       .btn-upload{
-  position: relative;
-  overflow: hidden;
-input {
-  position: absolute;
-  font-size: 50px;
-  opacity: 0;
-  right: 0;
-  top: 0;
-}
+        position: relative;
+        display: block;
+        overflow: hidden;
+        width: 20%;
+        height: 80px;
+        background: $color_dark;
+        margin-bottom: -15%;
+        span{
+          font-size: 30px;
+          position: absolute;
+          top: 25%;
+          left: 40%;
+        }
+        input {
+          position: absolute;
+          font-size: 50px;
+          opacity: 0;
+          right: 0;
+          top: 0;
+        }
       }
       .modal-bottom{
         color: #000;
@@ -55,6 +71,12 @@ input {
         width: 50%;
         margin-top: 25%;
         margin-bottom: 4%;
+        font-size: 16px;
+        padding: 10px;
+      }
+
+      .btn-accept{
+        margin-top: 5% !important;
       }
 
       .form-control{
