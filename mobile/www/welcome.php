@@ -76,7 +76,7 @@
                   <div class="col-md-12">
                     <div class="right-half">
                       
-                      <img class="img-responsive img-right" src="images/demo.jpg" > 
+                      <img class="img-responsive img-right" src="images/logo.png" > 
                       <h3 class="login-title">Welcome Himdadul!<br>You have successfully registered.<br><br>Please upload your photo & Set-up Profile.</h3>
                       <form class="form-horizontal">
                         <div class="file btn btn-lg btn-primary btn-upload">

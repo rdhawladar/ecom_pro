@@ -18,7 +18,7 @@ a:hover, a:focus {
   padding: 0;
 }
 
-.btn-common, .button, .toolbar {
+.btn-common, .button, .toolbar, .navbar {
   background: #ED8132 !important;
   color: #fff;
 }

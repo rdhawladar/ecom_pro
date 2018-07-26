@@ -76,7 +76,7 @@
                   <div class="col-md-12">
                     <div class="right-half">
                       
-                      <img class="img-responsive img-right" src="images/demo.jpg" > 
+                      <img class="img-responsive img-right" src="images/logo.png" > 
                       <h3 class="login-title">Thanks Himdadul!<br>We have got your e-mail, just put a eight digit password.</h3>
                       <form class="form-horizontal">
                         <div class="form-group">

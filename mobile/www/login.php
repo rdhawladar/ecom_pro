@@ -76,7 +76,7 @@
                   <div class="col-md-12">
                     <div class="right-half">
                       
-                      <img class="img-responsive img-right" src="images/demo.jpg" > 
+                      <img class="img-responsive img-right" src="images/logo.png" > 
                       <h4 class="login-title">Someone is waiting ...<br> Start helping him by Log in</h4>
                   <form class="form-horizontal">
                     <div class="form-group">
