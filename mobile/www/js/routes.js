@@ -23,6 +23,10 @@ routes = [
     path: '/settings/',
     url: './pages/settings.php',
   },
+  {
+    path: '/product-home/',
+    url: './pages/product-home.php',
+  },
   // Page Loaders & Router
   {
     path: '/page-loader-template7/:user/:userId/:posts/:postId/',

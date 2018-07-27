@@ -54,6 +54,9 @@ var catalogView = app.views.create('#view-catalog', {
 var settingsView = app.views.create('#view-settings', {
   url: '/settings/'
 });
+var productHomeView = app.views.create('#view-product-home', {
+  url: '/product-home/'
+});
 
 
 // Login Screen Demo

@@ -1,10 +1,5 @@
 
-<div class="page" data-name="settings">
-  <div class="navbar">
-    <div class="navbar-inner sliding">
-      <div class="title">Settings</div>
-    </div>
-  </div>
+<div class="page" data-name="product-home">
   <div class="page-content">
     <div class="block-title">Form Example</div>
     <div class="list no-hairlines-md">

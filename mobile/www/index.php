@@ -83,12 +83,12 @@
             <i class="icon material-icons md-only">settings</i>
             <span class="tabbar-label">Settings</span>
           </a>
+
         </div>
       </div>
-      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
-      <div id="view-home" class="view view-main tab tab-active">
-        <!-- Page, data-name contains page name which can be used in page callbacks -->
-        <div class="page" data-name="home">
+
+      <!-- Top NavbarTabbar for switching views-tabs -->
+      <div class="tabbar-labels toolbar-top-md">
           <!-- Top Navbar -->
           <div class="navbar">
             <div class="navbar-inner">
@@ -107,15 +107,26 @@
               </div>
             </div>
           </div>
+      </div>
+      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
+      <div id="view-home" class="view view-main tab tab-active">
+        <!-- Page, data-name contains page name which can be used in page callbacks -->
+        <div class="page" data-name="home">
+          <!-- Top Navbar -->
 
           <!-- Scrollable page content-->
           <div class="page-content">
-            <div class="block block-strong">
-              <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
-              <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
+            <div class="list">
+              <ul>
+                <li>
+                  <a href="#view-product-home" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Home</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </div>
-
-            <div class="block-title">Navigation</div>
             <div class="list">
               <ul>
                 <li>
@@ -127,7 +138,6 @@
                 </li>
               </ul>
             </div>
-
             <div class="block-title">Modals</div>
             <div class="block block-strong">
               <div class="row">
@@ -180,6 +190,11 @@
 
       <!-- Settings View -->
       <div id="view-settings" class="view tab">
+        <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      </div>
+
+      <!-- Settings View -->
+      <div id="view-product-home" class="view tab">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
     </div>
