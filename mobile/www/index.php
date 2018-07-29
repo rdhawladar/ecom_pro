@@ -31,16 +31,18 @@
   <script src="js/script.js"></script>
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 
   <!-- mobile  -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="framework7/css/framework7.min.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/app.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 </head>
 <body>
+  
   <div id="app">
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar"></div>
@@ -69,13 +71,24 @@
             <i class="icon f7-icons ios-only">home</i>
             <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
             <i class="icon material-icons md-only">home</i>
-            <span class="tabbar-label">Home</span>
+            <span class="tabbar-label">Dashboard</span>
           </a>
           <a href="#view-catalog" class="tab-link">
             <i class="icon f7-icons ios-only">list</i>
             <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
             <i class="icon material-icons md-only">view_list</i>
-            <span class="tabbar-label">Catalog</span>
+            <span class="tabbar-label">Ship</span>
+          </a>
+          <a href="#view-search" class="tab-link">
+            <i class="icon f7-icons ios-only">search</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">search_fill</i>
+            <i class="icon material-icons md-only">search</i>
+          </a>
+          <a href="#view-catalog" class="tab-link">
+            <i class="icon f7-icons ios-only">list</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+            <i class="icon material-icons md-only">view_list</i>
+            <span class="tabbar-label">Inbox</span>
           </a>
           <a href="#view-settings" class="tab-link">
             <i class="icon f7-icons ios-only">settings</i>
@@ -83,6 +96,7 @@
             <i class="icon material-icons md-only">settings</i>
             <span class="tabbar-label">Settings</span>
           </a>
+
 
         </div>
       </div>
@@ -117,15 +131,20 @@
           <!-- Scrollable page content-->
           <div class="page-content">
             <div class="list">
-              <ul>
-                <li>
                   <a href="#view-product-home" class="item-content tab-link">
                     <div class="item-inner">
                       <div class="item-title">Home</div>
                     </div>
                   </a>
-                </li>
-              </ul>
+            </div>
+
+
+            <div class="list">
+                  <a href="#view-search" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Search</div>
+                    </div>
+                  </a>
             </div>
             <div class="list">
               <ul>
@@ -197,6 +216,10 @@
       <div id="view-product-home" class="view tab">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
+      <!-- Settings View -->
+      <div id="view-search" class="view tab">
+        <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      </div>
     </div>
 
     <!-- Popup -->
@@ -263,7 +286,10 @@
   <!--
   <script src="cordova.js"></script>
   -->
-
+<script type="text/javascript">
+    // Slider range for price 
+    $("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
+</script>
   <!-- Framework7 library -->
   <script src="framework7/js/framework7.min.js"></script>
 

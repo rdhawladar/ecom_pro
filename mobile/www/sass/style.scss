@@ -32,6 +32,10 @@ a {
   min-width: 100px;
 }
 
+.btn-discount{
+  padding: 2px 8px;
+  color: #fff !important;
+}
 .contact, .collect{
   width: 100%;
 }
@@ -95,14 +99,16 @@ i, span {
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  padding: 0 20px;
   background: #fff;
   color: #000;
   transition: all 0.3s;
-  border-right: 1px solid #eee;
   .sidebar-body{
-  	margin: 10px; 
+  	margin: 10px;
+    .title{
+      margin: 10px auto;
+      border-bottom: 1px solid #aaa;
+    } 
   }
   .hide-on-open-sidebar{
     display: none;
@@ -125,9 +131,16 @@ i, span {
   	margin-top: 15%;
   }
   .button-group{
+    .small, .large{
+      padding: 12px;
+      font-size: 20px;
+    }
 
-  	.large{
-  		width: 75%;
+    .large{
+      width: 75%;
+    }
+  	.small{
+  		width: 23%;
   	}
   }
   .vendor{
@@ -160,7 +173,6 @@ i, span {
   }
   ul {
 	&.components {
-	  padding: 20px 0;
 	}
 	li {
 	  a {
@@ -315,61 +327,6 @@ ul {
 }
 
 /* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
-@media (max-width: 768px) {
-  #sidebar {
-    min-width: 80px;
-    max-width: 80px;
-    text-align: center;
-    margin-left: -80px !important;
-  }
-  a {
-    &[aria-expanded="false"]::before, &[aria-expanded="true"]::before {
-      top: auto;
-      bottom: 5px;
-      right: 50%;
-      -webkit-transform: translateX(50%);
-      -ms-transform: translateX(50%);
-      transform: translateX(50%);
-    }
-  }
-  #sidebar {
-    &.active {
-      margin-left: 0 !important;
-    }
-    .sidebar-header h3, .CTAs {
-      display: none;
-    }
-    .sidebar-header strong {
-      display: block;
-    }
-    ul {
-      li a {
-        padding: 20px 10px;
-        span {
-          font-size: 0.85em;
-        }
-        i {
-          margin-right: 0;
-          display: block;
-        }
-      }
-      ul a {
-        padding: 10px !important;
-      }
-      li a i {
-        font-size: 1.3em;
-      }
-    }
-    margin-left: 0;
-  }
-  #sidebarCollapse span {
-    display: none;
-  }
-}
-
-/* ---------------------------------------------------
     SEARCH AND FILTER PRODUCT
 ----------------------------------------------------- */
 .glyphicon {
@@ -433,6 +390,9 @@ ul {
   }
   .caption {
     padding: 9px 9px 0px 9px;
+    .lead{
+      margin: 0;
+    }
   }
   &:nth-of-type(odd) {
     background: #eeeeee;
@@ -479,7 +439,7 @@ ul {
 
 .heart{
   font-size: 20px;
-  width: 30%;
+  width: 60%;
 }
 
 /* ---------------------------------------------------

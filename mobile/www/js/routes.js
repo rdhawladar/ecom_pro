@@ -25,7 +25,11 @@ routes = [
   },
   {
     path: '/product-home/',
-    url: './pages/product-home.php',
+    url: './pp-pages/product-home.php',
+  },
+  {
+    path: '/search/',
+    url: './pp-pages/search.php',
   },
   // Page Loaders & Router
   {

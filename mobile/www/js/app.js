@@ -57,6 +57,9 @@ var settingsView = app.views.create('#view-settings', {
 var productHomeView = app.views.create('#view-product-home', {
   url: '/product-home/'
 });
+var searchView = app.views.create('#view-search', {
+  url: '/search/'
+});
 
 
 // Login Screen Demo
