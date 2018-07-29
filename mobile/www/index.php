@@ -42,7 +42,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 </head>
 <body>
-  
   <div id="app">
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar"></div>
@@ -128,6 +127,14 @@
         <div class="page" data-name="home">
           <!-- Top Navbar -->
 
+          <div class="price text-center">
+            <p>Price</p>
+            <div class="vendor-img">
+              <!-- Range slider: -->
+              <input id="ex16b" type="text"/><br/>
+            </div>
+            
+          </div>
           <!-- Scrollable page content-->
           <div class="page-content">
             <div class="list">
@@ -137,7 +144,6 @@
                     </div>
                   </a>
             </div>
-
 
             <div class="list">
                   <a href="#view-search" class="item-content tab-link">
@@ -286,10 +292,11 @@
   <!--
   <script src="cordova.js"></script>
   -->
-<script type="text/javascript">
-    // Slider range for price 
-    $("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
-</script>
+  <script type="text/javascript">
+      // Slider range for price 
+      $("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
+  </script>
+
   <!-- Framework7 library -->
   <script src="framework7/js/framework7.min.js"></script>
 

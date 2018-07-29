@@ -1,20 +1,4 @@
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
-
-              <div class="price">
-                <p>Price</p>
-                <div class="vendor-img">
-                  <!-- Range slider: -->
-                  <input id="ex16b" type="text"/><br/>
-                </div>
-                
-              </div>
-<script type="text/javascript">
-    // Slider range for price 
-    $("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
-</script>
-
 <div class="page" data-name="product-home">
   <div class="page-content">
 
@@ -51,11 +35,9 @@
               </div>
               <div class="price">
                 <p>Price</p>
-                <div class="vendor-img">
-                  <!-- Range slider: -->
-                  <input id="ex16b" type="text"/><br/>
+                <div class="range-slider color-orange range-slider-init" data-label="true">
+                  <input type="range" value="50" min="0" max="100" step="2">
                 </div>
-                
               </div>
               <div class="rating">
                 <p>Rating</p>
