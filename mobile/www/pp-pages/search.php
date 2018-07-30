@@ -34,10 +34,28 @@
                 
               </div>
               <div class="price">
-                <p>Price</p>
-                <div class="range-slider color-orange range-slider-init" data-label="true">
-                  <input type="range" value="50" min="0" max="100" step="2">
-                </div>
+                  <div class="list">
+                    <p>Price</p>
+                    <ul>
+                      <li class="item-row">
+                        <div class="item-cell item-cell-shrink-3">
+                          <!-- Dual range slider with all the parameters passed via data- attributes -->
+                          <div
+                            id="price-filter"
+                            class="range-slider range-slider-init color-orange"
+                            data-label="true"
+                            data-dual="true"
+                            data-min="0"
+                            data-max="500"
+                            data-step="1"
+                            data-value-left="200"
+                            data-value-right="400"
+                          ></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                
               </div>
               <div class="rating">
                 <p>Rating</p>

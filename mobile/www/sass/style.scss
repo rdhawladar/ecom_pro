@@ -1,4 +1,5 @@
 @import "variable";
+
 .text-modal{
   color: $color_modal;
 }
@@ -445,89 +446,66 @@ ul {
 /* ---------------------------------------------------
     Cart Page
 ----------------------------------------------------- */
-
-
-.table-data{
-  table-layout: fixed;
-  tbody > tr > td, tfoot > tr > td {
-    vertical-align: middle;
-    border: none;
-    &:first-child{
-      width: 25px;
+.cart-items{
+  margin: 15px auto;
+  background: $color_light;
+  .items{
+    margin: 15px auto;
+    .item-details{
+      margin-top: 0;
     }
-  }
-  tbody{
-    tr{
-      border-bottom: 1px solid #ddd ;
-      border-spacing: 0 50px;
+    .vendor-img{
+      width: 60%;
     }
-  }
-  .img-vendor{
-    width: 6%;
-  }
-
-  .qnt-input{
-    max-width: 100px;
-    input{
-      border-radius: 5px 0 0 5px;
-        border: 1px solid $color_dark;
-
+    .cross, .price{
+      font-size: 25px;
     }
-  }
-  .qnt-add{
-        border-radius: 0 5px 5px 0;
-        background: $color_dark;
-        border: 1px solid $color_dark;
-  }
-
-}
-
-@media screen and (max-width: 600px) {
-  table#cart tbody td .form-control {
-    width: 20%;
-    display: inline !important;
-  }
-  .actions {
-    .btn {
-      width: 36%;
-      margin: 1.5em 0;
+    .price{
+      color: red;
     }
-    .btn-info {
-      float: left;
-    }
-    .btn-danger {
-      float: right;
-    }
-  }
-  table#cart {
-    thead {
-      display: none;
-    }
-    tbody {
-      td {
-        display: block;
-        padding: .6rem;
-        min-width: 320px;
-      }
-      td:before {
-        content: attr(data-th);
-        font-weight: bold;
-        display: inline-block;
-        width: 8rem;
-      }
-      
-    }
-    tfoot td {
+    .cross{
+      font-size: 25px;
       display: block;
-      .btn {
-        display: block;
+      float: right;
+      margin-right: 15px;
+      color: #aaa;
+    }
+    .input-group{
+      width: 1% !important;
+      .input-group-addon{
+        border-radius: 50%;
+        font-size: 8px;
+        padding: 6px;
+        width: 10px;
+      }
+      input{
+        width: 25px !important; 
       }
     }
   }
 }
 
+.cart-footer{
+  background: $color_pink;
+  padding: 25px 15px;
+  img{
+    width: 20%;
+    float: left;
+    margin: 6px auto;
+    margin-right: 10px;
+    border-radius: 50%;
 
-
+  }
+  .price{
+    color: $color_red;
+    font-weight: bold;
+  }
+  p{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+  }
+}
 .request{
   .request-item{
     background: $color_light;

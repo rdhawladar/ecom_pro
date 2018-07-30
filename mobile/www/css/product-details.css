@@ -1,0 +1,29 @@
+.product-details .caption .heart {
+  filter: invert(18%) sepia(100%) saturate(5359%) hue-rotate(356deg) brightness(95%) contrast(117%);
+  -webkit-filter: invert(18%) sepia(100%) saturate(5359%) hue-rotate(356deg) brightness(95%) contrast(117%);
+}
+.product-details .caption .title {
+  margin: 10px auto;
+}
+.product-details .caption .after-title {
+  margin: 10px auto;
+}
+.product-details .caption .after-title .rating .glyphicon {
+  margin: 0 !important;
+  color: #ED8132;
+}
+.product-details .caption .after-title .vendor-logo .logo-title {
+  color: red;
+}
+.product-details .caption .after-title .vendor-logo h2 {
+  margin: 0;
+}
+.product-details .caption .demo-swiper {
+  margin: 20px auto;
+}
+.product-details .caption .demo-swiper .slider-details {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=../css/product-details.css.map */

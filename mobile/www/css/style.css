@@ -46,7 +46,7 @@ a:hover, a:focus {
 }
 
 .top-navbar {
-  background: #FBFCFE;
+  background: #F5F8FD;
   border-radius: 0;
   margin-bottom: 0;
   color: #ED8132;
@@ -102,7 +102,7 @@ i, span {
   margin: 10px;
 }
 #sidebar .sidebar-body .title {
-  margin: 0 auto;
+  margin: 10px auto;
   border-bottom: 1px solid #aaa;
 }
 #sidebar .hide-on-open-sidebar {
@@ -393,76 +393,68 @@ ul.CTAs a {
 /* ---------------------------------------------------
     Cart Page
 ----------------------------------------------------- */
-.table-data {
-  table-layout: fixed;
+.cart-items {
+  margin: 15px auto;
+  background: #F5F8FD;
 }
-.table-data tbody > tr > td, .table-data tfoot > tr > td {
-  vertical-align: middle;
-  border: none;
+.cart-items .items {
+  margin: 15px auto;
 }
-.table-data tbody > tr > td:first-child, .table-data tfoot > tr > td:first-child {
-  width: 25px;
+.cart-items .items .item-details {
+  margin-top: 0;
 }
-.table-data tbody tr {
-  border-bottom: 1px solid #ddd;
-  border-spacing: 0 50px;
+.cart-items .items .vendor-img {
+  width: 60%;
 }
-.table-data .img-vendor {
-  width: 6%;
+.cart-items .items .cross, .cart-items .items .price {
+  font-size: 25px;
 }
-.table-data .qnt-input {
-  max-width: 100px;
+.cart-items .items .price {
+  color: red;
 }
-.table-data .qnt-input input {
-  border-radius: 5px 0 0 5px;
-  border: 1px solid #ED8132;
+.cart-items .items .cross {
+  font-size: 25px;
+  display: block;
+  float: right;
+  margin-right: 15px;
+  color: #aaa;
 }
-.table-data .qnt-add {
-  border-radius: 0 5px 5px 0;
-  background: #ED8132;
-  border: 1px solid #ED8132;
+.cart-items .items .input-group {
+  width: 1% !important;
+}
+.cart-items .items .input-group .input-group-addon {
+  border-radius: 50%;
+  font-size: 8px;
+  padding: 6px;
+  width: 10px;
+}
+.cart-items .items .input-group input {
+  width: 25px !important;
 }
 
-@media screen and (max-width: 600px) {
-  table#cart tbody td .form-control {
-    width: 20%;
-    display: inline !important;
-  }
-
-  .actions .btn {
-    width: 36%;
-    margin: 1.5em 0;
-  }
-  .actions .btn-info {
-    float: left;
-  }
-  .actions .btn-danger {
-    float: right;
-  }
-
-  table#cart thead {
-    display: none;
-  }
-  table#cart tbody td {
-    display: block;
-    padding: 0.6rem;
-    min-width: 320px;
-  }
-  table#cart tbody td:before {
-    content: attr(data-th);
-    font-weight: bold;
-    display: inline-block;
-    width: 8rem;
-  }
-  table#cart tfoot td {
-    display: block;
-  }
-  table#cart tfoot td .btn {
-    display: block;
-  }
+.cart-footer {
+  background: #ffe2e7;
+  padding: 25px 15px;
 }
+.cart-footer img {
+  width: 20%;
+  float: left;
+  margin: 6px auto;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.cart-footer .price {
+  color: red;
+  font-weight: bold;
+}
+.cart-footer p {
+  font-size: 18px;
+  display: inline;
+  margin: 0;
+}
+
 .request .request-item {
-  background: #FBFCFE;
+  background: #F5F8FD;
   margin: 15px auto;
 }
 .request .input-box .input-group {

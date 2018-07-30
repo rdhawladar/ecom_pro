@@ -30,7 +30,7 @@
 			<div class="container-fluid">
 				
 				<h1>My Cart</h1>
-				<table id="cart" class="table table-condensed">
+				<table id="cart" class="table table-condensed table-data">
 					<tbody>
 						<tr>
 							<td class="col-md-1">1</td>
@@ -93,7 +93,7 @@
 							<td><a href="#" class="btn color-text"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
 							<td colspan="2" class="hidden-xs"></td>
 							<td class="hidden-xs text-center"><strong></strong></td>
-							<td><a href="#" class="btn btn-common btn-block">Continue to Cart <i class="fa fa-angle-right"></i></a></td>
+							<td><a href="#" class="btn btn-common">Continue to Cart <i class="fa fa-angle-right"></i></a></td>
 						</tr>
 					</tfoot>
 				</table>

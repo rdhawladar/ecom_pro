@@ -1,6 +1,6 @@
 
 @import "variable";
-$toggler-size: 50px;
+$toggler-size: 42px;
 $toggler-color: $color_dark;
 $toggler-transition: transform .5s, top .5s;
 
@@ -34,9 +34,12 @@ $item-transition: .5s;
 }
 
 .dashboard{
-    .content{
-        margin-top: 20%;
-        text-align: center;
+    .title{
+      margin: 80px auto;
+
+    }
+    .menu-content{
+      margin-top: 150px;
     }
 }
 .menu-toggler {
@@ -129,6 +132,7 @@ $item-transition: .5s;
   @include size($item-size);
   display: block;
   opacity: 0;
+  left: 0;
   transition: $item-transition;
   img{
     filter: invert(100%);

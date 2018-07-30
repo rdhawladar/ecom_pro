@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/product-details.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -33,13 +36,10 @@
 
 
   <!-- mobile  -->
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="framework7/css/framework7.min.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/app.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 </head>
 <body>
   <div id="app">
@@ -101,7 +101,7 @@
       </div>
 
       <!-- Top NavbarTabbar for switching views-tabs -->
-      <div class="tabbar-labels toolbar-top-md">
+      <div class="toolbar-top-md">
           <!-- Top Navbar -->
           <div class="navbar">
             <div class="navbar-inner">
@@ -125,17 +125,8 @@
       <div id="view-home" class="view view-main tab tab-active">
         <!-- Page, data-name contains page name which can be used in page callbacks -->
         <div class="page" data-name="home">
-          <!-- Top Navbar -->
 
-          <div class="price text-center">
-            <p>Price</p>
-            <div class="vendor-img">
-              <!-- Range slider: -->
-              <input id="ex16b" type="text"/><br/>
-            </div>
-            
-          </div>
-          <!-- Scrollable page content-->
+          <!-- Top Navbar -->
           <div class="page-content">
             <div class="list">
                   <a href="#view-product-home" class="item-content tab-link">
@@ -146,9 +137,41 @@
             </div>
 
             <div class="list">
+                  <a href="#view-product-details" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Product Details</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
                   <a href="#view-search" class="item-content tab-link">
                     <div class="item-inner">
                       <div class="item-title">Search</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="#view-cart" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Cart</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="#view-dashboard" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Dashboard</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="/payment-saved-card/" class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title">Payment- Saved Card</div>
                     </div>
                   </a>
             </div>
@@ -213,18 +236,22 @@
         <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
       </div>
 
-      <!-- Settings View -->
       <div id="view-settings" class="view tab">
-        <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
 
-      <!-- Settings View -->
       <div id="view-product-home" class="view tab">
-        <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
-      <!-- Settings View -->
+
+      <div id="view-product-details" class="view tab">
+      </div>
+
       <div id="view-search" class="view tab">
-        <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      </div>
+
+      <div id="view-cart" class="view tab">
+      </div>
+
+      <div id="view-dashboard" class="view tab">
       </div>
     </div>
 
@@ -292,10 +319,6 @@
   <!--
   <script src="cordova.js"></script>
   -->
-  <script type="text/javascript">
-      // Slider range for price 
-      $("#ex16b").slider({ min: 0, max: 1000, value: [0, 1000], focus: true });
-  </script>
 
   <!-- Framework7 library -->
   <script src="framework7/js/framework7.min.js"></script>

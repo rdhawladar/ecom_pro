@@ -57,8 +57,17 @@ var settingsView = app.views.create('#view-settings', {
 var productHomeView = app.views.create('#view-product-home', {
   url: '/product-home/'
 });
+var productHomeView = app.views.create('#view-product-details', {
+  url: '/product-details/'
+});
 var searchView = app.views.create('#view-search', {
   url: '/search/'
+});
+var cartView = app.views.create('#view-cart', {
+  url: '/cart/'
+});
+var dashboardView = app.views.create('#view-dashboard', {
+  url: '/dashboard/'
 });
 
 

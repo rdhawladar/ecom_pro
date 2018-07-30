@@ -1,0 +1,35 @@
+@import "variable";
+.product-details{
+  .caption{
+    .heart{
+      @include filter(invert(18%) sepia(100%) saturate(5359%) hue-rotate(356deg) brightness(95%) contrast(117%));
+    }
+    .title{
+      margin: 10px auto;
+    }
+    .after-title{
+      margin: 10px auto;
+      .rating{
+        .glyphicon{
+          margin: 0 !important;
+          color: $color_dark;
+        }
+      }
+      .vendor-logo{
+        .logo-title{
+          color: red;
+        }
+        h2{
+          margin: 0;
+        }
+      }
+    }
+    .demo-swiper{
+      margin: 20px auto;
+      .slider-details{
+        font-size: 10px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

@@ -12,6 +12,10 @@ routes = [
     url: './pages/about.php',
   },
   {
+    path: '/payment-saved-card/',
+    url: './pp-pages/payment-saved-card.php',
+  },
+  {
     path: '/catalog/',
     componentUrl: './pages/catalog.php',
   },
@@ -28,8 +32,20 @@ routes = [
     url: './pp-pages/product-home.php',
   },
   {
+    path: '/product-details/',
+    url: './pp-pages/product-details.php',
+  },
+  {
     path: '/search/',
     url: './pp-pages/search.php',
+  },
+  {
+    path: '/cart/',
+    url: './pp-pages/cart.php',
+  },
+  {
+    path: '/dashboard/',
+    url: './pp-pages/dashboard.php',
   },
   // Page Loaders & Router
   {

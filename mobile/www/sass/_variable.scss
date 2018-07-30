@@ -1,7 +1,15 @@
 
 $color_dark: #ED8132;
-$color_light: #FBFCFE;
+$color_light: #F5F8FD;
 $color_light_deep: #F0F0F0;
 $color_light_gray: #E0E4EF;
 $color_modal: #3B5999;
 $color_filter: invert(66%) sepia(45%) saturate(3305%) hue-rotate(339deg) brightness(97%) contrast(91%);
+$color_red: red;
+$color_pink: #ffe2e7;
+
+@mixin filter($colors){
+	filter: $colors;
+  	-webkit-filter: $colors;
+
+}
