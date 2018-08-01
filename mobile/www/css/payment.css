@@ -1,0 +1,42 @@
+.payment .m-20 {
+  margin: 20px auto;
+}
+.payment .total-payable {
+  padding: 10px;
+  background: #F5F8FD;
+  border-radius: 10px;
+}
+.payment .total-payable .price {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+.payment .saved-card {
+  margin-bottom: 15px;
+  background: #E0E4EF;
+}
+.payment .active-card {
+  background: #ED8132;
+}
+.payment .invalid-card {
+  background: #ffe2e7;
+}
+.payment .new-card-num {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: 1px solid #aaa;
+}
+.payment .new-card-num:focus {
+  border: 1px solid #ED8132;
+}
+.payment .item-content {
+  padding-left: 0 !important;
+}
+.payment .pay-with .pay-with-img {
+  padding: 12px 20px;
+  background: #F5F8FD;
+}
+
+/*# sourceMappingURL=../css/payment.css.map */

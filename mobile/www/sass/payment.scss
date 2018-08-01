@@ -1,0 +1,47 @@
+@import "variable";
+
+.payment{
+  .m-20{
+    margin: 20px auto;
+  }
+  .total-payable{
+    padding: 10px;
+    background: $color_light;
+    border-radius: 10px;
+    .price{
+      font-size: 30px;
+      font-weight: bold;
+      color: $color_red;
+    }
+  }
+  .saved-card{
+    margin-bottom: 15px;
+    background: $color_light_gray;
+  }
+  .active-card{
+    background: $color_dark;
+  }
+  .invalid-card{
+    background: $color_pink;
+  }
+  .new-card-num{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    &:focus{
+      border: 2px solid $color_dark;
+    }
+  }
+
+  .item-content{
+    padding-left: 0 !important;
+  }
+  .pay-with{
+    .pay-with-img{
+        padding: 12px 20px;
+        background: $color_light;
+    }
+  }
+}

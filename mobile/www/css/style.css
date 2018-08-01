@@ -3,6 +3,18 @@
   color: #3B5999;
 }
 
+.container, .container-fluid {
+  margin-bottom: 76px;
+}
+
+.m-10 {
+  margin: 10px auto !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -104,6 +116,7 @@ i, span {
 #sidebar .sidebar-body .title {
   margin: 10px auto;
   border-bottom: 1px solid #aaa;
+  padding: 10px 0;
 }
 #sidebar .hide-on-open-sidebar {
   display: none;
@@ -283,6 +296,10 @@ ul.CTAs a {
 /* ---------------------------------------------------
     SEARCH AND FILTER PRODUCT
 ----------------------------------------------------- */
+.range-slider {
+  height: 0 !important;
+}
+
 .glyphicon {
   margin-right: 5px;
 }
