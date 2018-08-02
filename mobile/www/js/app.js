@@ -66,6 +66,9 @@ var searchView = app.views.create('#view-search', {
 var cartView = app.views.create('#view-cart', {
   url: '/cart/'
 });
+var settingView = app.views.create('#view-setting', {
+  url: '/setting/'
+});
 var dashboardView = app.views.create('#view-dashboard', {
   url: '/dashboard/'
 });

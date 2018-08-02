@@ -12,8 +12,8 @@ routes = [
     url: './pages/about.php',
   },
   {
-    path: '/payment-saved-card/',
-    url: './pp-pages/payment-saved-card.php',
+    path: '/payment/',
+    url: './pp-pages/payment.php',
   },
   {
     path: '/catalog/',
@@ -42,6 +42,10 @@ routes = [
   {
     path: '/cart/',
     url: './pp-pages/cart.php',
+  },
+  {
+    path: '/setting/',
+    url: './pp-pages/setting.php',
   },
   {
     path: '/dashboard/',

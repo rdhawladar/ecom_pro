@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="css/product-details.css">
   <link rel="stylesheet" href="css/dashboard.css">
   <link rel="stylesheet" href="css/payment.css">
+  <link rel="stylesheet" href="css/setting.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -170,12 +171,21 @@
             </div>
 
             <div class="list">
-                  <a href="/payment-saved-card/" class="item-content">
+                  <a href="/payment/" class="item-content">
                     <div class="item-inner">
-                      <div class="item-title">Payment- Saved Card</div>
+                      <div class="item-title">Payment</div>
                     </div>
                   </a>
             </div>
+
+            <div class="list">
+                  <a href="#view-setting" class="item-content tab-link">
+                    <div class="item-inner">
+                      <div class="item-title">Settings</div>
+                    </div>
+                  </a>
+            </div>
+
             <div class="list">
               <ul>
                 <li>
@@ -250,6 +260,9 @@
       </div>
 
       <div id="view-cart" class="view tab">
+      </div>
+
+      <div id="view-setting" class="view tab">
       </div>
 
       <div id="view-dashboard" class="view tab">

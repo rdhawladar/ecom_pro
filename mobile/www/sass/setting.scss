@@ -1,6 +1,8 @@
 @import "variable";
 
-.travel {
+.setting {
+
+
   .navbar-nav{
     li{
       padding: 0px 10px;
@@ -29,7 +31,7 @@
     margin: 10px auto;
   }
 
-  .layer-2, .layer-3, .layer-4{
+  .layer-2, .layer-3{
     background: $color_light;
   }
   .layer-3{
@@ -37,51 +39,60 @@
     color: #fff;
     padding: 10px 0;
     margin-bottom: 0;
+    border-radius: 5px;
     a{
       background: $color_dark;
-      border-radius: 5px;
+      border-radius: 50%;
       margin-right: 10px;
       text-align: center;
+      color: #fff;
     }
     a, span{
       padding: 5px 10px;
 
     }
+    .details{
+      width: 100%;    
+    }
   }
+
   .layer-4{
     margin: 0 auto;
     table{
       margin-top: 20px;
       td:first-child{
-          width: 10%;
           img:hover{
             filter: $color_filter;
           }
+      }
+
+      .profile-img{
+        img{
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+          border: 2px solid $color_dark;
+          float: right;
+          margin-right: 15px;
+          
+        }
+      }
+      .location-img{
+        width: 20%;
+        @include filter($color_filter);
+        margin-bottom: 5px;
       }
       td{
           border-top: 0;
           padding-top: 0;
           padding-bottom: 0;
-      }
-    }
-    .left-table{
-      tr:nth-child(-n+4){
-        td:last-child{
-          border-right: 1px solid #aaa;
-        }
-        
+          vertical-align: middle;
       }
     }
   }
 }
 
-.setting{
-  .profile-img{
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      border: 1px solid red;
-  }
+.settingss{
   .location-img{
     width: 60%;
   }
