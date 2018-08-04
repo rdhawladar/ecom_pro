@@ -23,7 +23,7 @@
                 <div class="col-xs-12">
                     <div class="total-payable">
                         <p class="d-inline-block">Total Payable</p>
-                        <span class="pull-right price">$968</span>
+                        <span class="pull-right price red">$968</span>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                           <div class="swiper-pagination"></div>
                           <div class="swiper-wrapper">
                             <?php for($i=1; $i<=5; $i++) { ?>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide carousel-partial">
                               <img src="images/amazon.svg" class="img-responsive pay-with-img">
                             </div>
                           <?php } ?>
@@ -45,12 +45,14 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row payment-setting">
                 <div class="col-xs-12">
-                    <h4 class="d-inline-block m-20"><b><a href="#tab-1" class="tab-link tab-link-active">Saved Card</a></b></h4> &nbsp; &nbsp; &nbsp; <span><a href="#tab-2" class="tab-link">Add New Card</a></span>
+                    <h4 class="d-inline-block m-20">
+                      <a href="#payment-tab-1" class="tab-link tab-link-active">Saved Card</a></h4> &nbsp; &nbsp; &nbsp; <span>
+                      <a href="#payment-tab-2" class="tab-link">Add New Card</a></span>
                     <div class="tabs-swipeable-wrap">
                       <div class="tabs">
-                        <div id="tab-1" class="tab tab-active">
+                        <div id="payment-tab-1" class="tab tab-active">
                               <div class="saved-card total-payable">
                                   <p>...xxxx 4568</p>
                               </div>
@@ -58,24 +60,24 @@
                                   <p>...xxxx 6545</p>
                               </div>
                         </div>
-                        <div id="tab-2" class="tab">
+                        <div id="payment-tab-2" class="tab">
                            <div class="invalid-card total-payable">
                               <p>You card is not valid. Try another card.</p>
                           </div>
                           <div class="row">
                               <div class="col-xs-12">
-                                  <input class="new-card-num" type="text" placeholder="xxxx-xxxx-xxxx-3423"/>
+                                  <input class="input-default" type="text" placeholder="xxxx-xxxx-xxxx-3423"/>
                               </div>
                           </div>
                           <div class="row">
                               <div class="col-xs-8">
-                                  <input class="new-card-num" type="text" placeholder="DD-MM-YY"/>
+                                  <input class="input-default" type="text" placeholder="DD-MM-YY"/>
                               </div>
                               <div class="col-xs-4">
-                                  <input class="new-card-num" type="text" placeholder="CVV"/>
+                                  <input class="input-default" type="text" placeholder="CVV"/>
                               </div>
                           </div>
-                          <div class="m-20 list">
+                          <div class="m-10 list">
                               <label class="item-checkbox item-content">
                               <input type="checkbox" name="checkbox" value="Books" checked="checked"/>
                               <i class="icon icon-checkbox"></i>

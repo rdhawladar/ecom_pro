@@ -1,17 +1,68 @@
 @import "variable";
 
+body{
+  color: #555;
+}
+
+a{
+  color: #000;
+}
+
 .text-modal{
   color: $color_modal;
+}
+
+.filter{
+    @include filter($color_filter);
 }
 
 .container, .container-fluid{
   margin-bottom: 76px;
 }
+
 .m-10{
   margin: 10px auto !important;
 
 }
 
+.bg-color{
+   background: $color_dark;
+}
+
+.title-color-light{
+   color: #aaa;
+}
+
+.button{
+    line-height: 50px !important;
+    height: 50px !important;
+    text-transform: none !important; 
+}
+.text-color{
+   color: $color_dark;
+}
+
+.mb-10{
+  margin-bottom: 10px !important;
+
+}
+
+.m-0{
+  margin: 0px !important;
+}
+
+.p-0{
+  margin: 0px !important;
+}
+
+.mt-10{
+  margin-top: 10px !important;
+
+}
+
+.lh-20{
+  line-height: 20px !important;
+}
 .d-inline-block{
   display: inline-block !important;
 }
@@ -35,7 +86,26 @@ a {
 }
 
 
+.carousel-partial{
+  width: auto !important;
+  min-width: 32%;
+}
 
+.carousel-40{
+  min-width: 40%;
+}
+
+.carousel-45{
+  min-width: 45%;
+}
+
+.tab-link-active{
+  font-weight: bold !important;
+}
+
+.red{
+  color: $color_red;
+}
 .btn-round{
   border-radius: 20px;
   min-width: 10%;

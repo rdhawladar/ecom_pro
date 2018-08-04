@@ -1,0 +1,25 @@
+.payment-confirmation .color-light {
+  color: #aaa;
+}
+.payment-confirmation .alert {
+  background: #E0E4EF;
+}
+.payment-confirmation .alert .layout {
+  margin: 10px a;
+}
+.payment-confirmation .alert .lay-l h1 {
+  font-size: 50px;
+}
+.payment-confirmation .alert .lay-r a {
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+.payment-confirmation .bottom img {
+  width: 25%;
+  border-radius: 10px;
+  border: 1px solid #ED8132;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=../css/payout-success.css.map */

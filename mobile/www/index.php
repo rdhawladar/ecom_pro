@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="css/dashboard.css">
   <link rel="stylesheet" href="css/payment.css">
   <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/payout-success.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -179,9 +180,41 @@
             </div>
 
             <div class="list">
+                  <a href="/payout/" class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title">Payout</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
                   <a href="#view-setting" class="item-content tab-link">
                     <div class="item-inner">
                       <div class="item-title">Settings</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="/payout-success/" class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title">Payout Success</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="/add-travel/" class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title">Add Trave</div>
+                    </div>
+                  </a>
+            </div>
+
+            <div class="list">
+                  <a href="/my-travel/" class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title">My Travel</div>
                     </div>
                   </a>
             </div>

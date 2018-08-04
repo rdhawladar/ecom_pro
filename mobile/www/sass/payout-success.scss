@@ -1,0 +1,34 @@
+@import "variable";
+
+.payment-confirmation{
+   .color-light{
+      color: #aaa;
+   }
+   .alert{
+    background: $color_light_gray;
+    .layout{
+      margin: 10px a
+    }
+    .lay-l{
+      h1{
+        font-size: 50px;
+      }
+    }
+    .lay-r{
+      a{
+        margin-top: 15px;
+        margin-right: 20px;
+        padding: 10px 30px;
+      }
+    }
+  }
+  .bottom{
+    img{
+        width: 25%;
+        border-radius: 10px;
+        border: 1px solid $color_dark;
+        margin-bottom: 5px;
+    }
+  }
+}
+

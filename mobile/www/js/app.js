@@ -57,7 +57,7 @@ var settingsView = app.views.create('#view-settings', {
 var productHomeView = app.views.create('#view-product-home', {
   url: '/product-home/'
 });
-var productHomeView = app.views.create('#view-product-details', {
+var productDetailsView = app.views.create('#view-product-details', {
   url: '/product-details/'
 });
 var searchView = app.views.create('#view-search', {
@@ -84,4 +84,12 @@ $$('#my-login-screen .login-button').on('click', function () {
 
   // Alert username and password
   app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
+});
+
+// Login Screen Demo
+$$('#my-withdraw-screen .withdraw-button').on('click', function () {
+
+  // Close login screen
+  app.withdrawScreen.close('#my-withdraw-screen');
+
 });

@@ -1,9 +1,7 @@
 @import "variable";
 
-.payment{
-  .m-20{
-    margin: 20px auto;
-  }
+.payment, .payout{
+
   .total-payable{
     padding: 10px;
     background: $color_light;
@@ -11,7 +9,6 @@
     .price{
       font-size: 30px;
       font-weight: bold;
-      color: $color_red;
     }
   }
   .saved-card{
@@ -24,12 +21,14 @@
   .invalid-card{
     background: $color_pink;
   }
-  .new-card-num{
+  .input-default{
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     margin: 10px auto;
-    border: 1px solid #aaa;
+    border: 2px solid #ddd;
+    color: #999;
+    font-size: 20px;
     &:focus{
       border: 2px solid $color_dark;
     }
@@ -42,6 +41,78 @@
     .pay-with-img{
         padding: 12px 20px;
         background: $color_light;
+        display: block;
+        text-align: center;
+        color: #000;
     }
   }
+
+  .payment-setting{
+    .tab-link-active{
+      font-size: 20px;
+    }
+    
+  }
+  .tab-link, .tab-link-active{
+    color: #000;
+  }
+
+
+  .item-after{
+    width: 100%;
+    max-width: 100% !important;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    color: #999;
+
+  }
+
+  .img-airport{
+    img{
+      width: 15%;
+      vertical-align: top;
+      border-radius: 10px;
+    }
+    span{
+      width: 165px;
+    }
+  }
+
+  .btn-scanqr{
+    height: 65px !important;
+    line-height: 65px !important;
+    margin: 20% auto;
+    border-radius: 15px !important;
+    background: #666 !important;
+    img{
+      width: 20%;
+      border-radius: 5px;
+      margin-right: 2px;
+        
+    }
+  }
+}
+
+
+
+.popup-payout{
+    background: transparent;
+    display: block;
+}
+
+.payout-page{
+    height: 60%;
+    /* margin: 48px; */
+    width: 80%;
+    margin-top: 40%;
+    text-align: center;
+    /* margin: 10px auto; */
+    margin-left: 10%;
 }

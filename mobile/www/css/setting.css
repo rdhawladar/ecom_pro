@@ -32,15 +32,17 @@
   margin-bottom: 0;
   border-radius: 5px;
 }
-.setting .layer-3 a {
-  background: #ED8132;
-  border-radius: 50%;
-  margin-right: 10px;
-  text-align: center;
+.setting .layer-3 .icon {
   color: #fff;
+  background: #ED8132;
+  padding: 5px;
+  border-radius: 50%;
 }
-.setting .layer-3 a, .setting .layer-3 span {
+.setting .layer-3 span {
   padding: 5px 10px;
+}
+.setting .layer-3 a {
+  margin-right: 10px;
 }
 .setting .layer-3 .details {
   width: 100%;
@@ -50,6 +52,7 @@
 }
 .setting .layer-4 table {
   margin-top: 20px;
+  border: none;
 }
 .setting .layer-4 table td:first-child img:hover {
   filter: invert(66%) sepia(45%) saturate(3305%) hue-rotate(339deg) brightness(97%) contrast(91%);
@@ -73,6 +76,12 @@
   padding-top: 0;
   padding-bottom: 0;
   vertical-align: middle;
+}
+.setting .layer-4 table .img-td {
+  padding: 5px;
+  width: 20%;
+  vertical-align: top;
+  padding-right: 25px;
 }
 
 .settingss .location-img {

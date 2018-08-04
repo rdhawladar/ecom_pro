@@ -16,6 +16,18 @@ routes = [
     url: './pp-pages/payment.php',
   },
   {
+    path: '/payout/',
+    url: './pp-pages/payout.php',
+  },
+  {
+    path: '/add-travel/',
+    url: './pp-pages/add-travel.php',
+  },
+  {
+    path: '/my-travel/',
+    url: './pp-pages/my-travel.php',
+  },
+  {
     path: '/catalog/',
     componentUrl: './pages/catalog.php',
   },
@@ -46,6 +58,14 @@ routes = [
   {
     path: '/setting/',
     url: './pp-pages/setting.php',
+  },
+  {
+    path: '/payout-success/',
+    url: './pp-pages/payout-success.php',
+  },
+  {
+    path: '/add-travel/',
+    url: './pp-pages/add-travel.php',
   },
   {
     path: '/dashboard/',
