@@ -92,7 +92,7 @@
 
                 <div class="row">
                     <div class="col-xs-6">
-                        <a href="#" class="col button button-round button-fill  popup-open" data-popup="#my-popup">Withdraw</a>
+                        <a href="#" class="col button button-round button-fill  popup-open" data-popup="#my-withdraw">Withdraw</a>
 
                     </div>
                 </div>

@@ -323,6 +323,46 @@
       </div>
     </div>
 
+    <!-- Withdraw -->
+    <div class="popup popup-payout" id="my-withdraw">
+      <div class="view">
+        <div class="page payout-page">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Payout Confirmation</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block layer-4">
+                <table class="table table-responsive table-payout text-left " >
+                  <tr>
+                    <td>Payout Amount</td>
+                    <td>$5042</td>
+                  </tr>
+                  <tr>
+                    <td>Withdraw Method</td>
+                    <td>PP-Booth</td>
+                  </tr>
+                  <tr>
+                    <td>Booth Id</td>
+                    <td><img src="images/demo.jpg" class="img-responsive payout-confirm-img">DD5674 (Dresden Airport, Germany - DRS )</td>
+                  </tr>
+                </table>
+                 <div class="col-xs-6">
+                        <a href="#" class="col button button-round button-fill  link popup-close">Cancel</a>
+
+                  </div>
+                 <div class="col-xs-6">
+                        <a href="#" class="col button button-round button-fill  link popup-close" data-popup="#my-withdraw">Withdraw</a>
+
+                  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Login Screen -->
     <div class="login-screen" id="my-login-screen">
       <div class="view">

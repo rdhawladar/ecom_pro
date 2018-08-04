@@ -103,16 +103,28 @@
 
 
 .popup-payout{
-    background: transparent;
-    display: block;
+    background: transparent !important;
+  .payout-page{
+      height: 60% !important;
+      width: 80% !important;
+      margin-top: 40%;
+      text-align: center;
+      margin-left: 10% ;
+      border-radius: 8px;
+
+      .navbar{
+        background: $color_light !important;
+        border-radius: 5px;
+        color: #000;
+      }
+      .table-payout, td{
+          border: none !important;
+        .payout-confirm-img{
+          width: 30%;
+          border-radius: 10px;
+          border: 1px solid $color_dark;
+        }
+      }
+  }
 }
 
-.payout-page{
-    height: 60%;
-    /* margin: 48px; */
-    width: 80%;
-    margin-top: 40%;
-    text-align: center;
-    /* margin: 10px auto; */
-    margin-left: 10%;
-}
