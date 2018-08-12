@@ -46,7 +46,7 @@
                                 <div class="col-xs-12">
 
                                   
-                                    <a class="item-link smart-select smart-select-init" data-open-in="popover">
+                                    <a class="item-link smart-select smart-select-init" data-open-in="sheet">
                                       <select name="superhero">
                                         <option value="Batman" selected>Select Country</option>
                                         <option value="Superman">Australia</option>
