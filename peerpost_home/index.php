@@ -14,6 +14,7 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
     <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/pp-style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -58,8 +59,9 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#service-page">Service</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#service">Service 2</a></li>
                     <li><a href="#feature-page">Features</a></li>
                     <li><a href="#price-page">Pricing</a></li>
                     <li><a href="#team-page">Team</a></li>
@@ -72,34 +74,77 @@
     </div>
     <!--Mainmenu-area/-->
 
-
-
     <!--Header-area-->
-    <header class="full-height relative v-center" id="home-page">
+    <header class="full-height relative v-center" id="home">
         <div class="absolute"></div>
         <div class="container">
             <div class="row v-center">
                 <div class="col-md-12">
-                    <div class="screen-box screen-slider">
-                        <div class="item">
-                            <div class="col-md-6">
-                                
-                                <img src="images/screen-1.jpg" alt="">
+                    <div class="screen-slider">
+                        <div class="item row">
+                            <div class="v-center">
+                                <div class="col-xs-offset-2 col-xs-10 col-md-4">
+                                    <div class="caption-photo " data-animation="animated fadeInRight">
+                                        <img src="images/screen-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="caption-title" data-animation="animated fadeInUp">
+                                        <p class="title-sm bold text_color_1">Packed Your Bag Tight</p>
+                                        <p class="title-lg bold text_color_1">Earn Extra $</p>
+                                    </div>
+                                    <div class="caption-button" data-animation="animated fadeInUp">
+                                        <a href="#" class="button pp-bg btn-big">See Available Products</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6">
-                                <h1>Haha</h1>
-                            </div>
-
                         </div>
-                        <div class="item">
-                            <div class="col-md-6">
-                                
-                                <img src="images/screen-1.jpg" alt="">
-                            </div>
-                            <div class="col-md-6">
-                                <h1>Haha</h1>
-                            </div>
+                        <div class="item row">
+                            <div class="v-center">
 
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="caption-photo one" data-animation="animated fadeInRight">
+                                        <img src="images/screen-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="caption-title" data-animation="animated fadeInUp">
+                                        <h2>Awesome design</h2>
+                                    </div>
+                                    <div class="caption-desc" data-animation="animated fadeInUp">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                    </div>
+                                    <div class="caption-button" data-animation="animated fadeInUp">
+                                        <a href="#" class="button">Read more</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item row">
+                            <div class="v-center">
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="caption-title" data-animation="animated fadeInUp">
+                                        <h2>Awesome design</h2>
+                                    </div>
+                                    <div class="caption-desc" data-animation="animated fadeInUp">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                    </div>
+                                    <div class="caption-button" data-animation="animated fadeInUp">
+                                        <a href="#" class="button">Read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-3">
+                                    <div class="caption-photo one" data-animation="animated fadeInRight">
+                                        <img src="images/screen-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-3">
+                                    <div class="caption-photo two" data-animation="animated fadeInRight">
+                                        <img src="images/screen-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,45 +162,38 @@
     </header>
     <!--Header-area/-->
 
-
-
-    <!--Feature-area-->
-    <section class="gray-bg section-padding" >
+    <section class="sky-bg section-padding full-height relative v-center login" id="login">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-1.png" alt="">
+                <div class="col-xs-12">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="caption-title" data-animation="animated fadeInUp">
+                            <p class="title-sm bold">I have Account</p>
+                            <p class="title-lg bold">Wow! Let's Login</p>
                         </div>
-                        <h4>EASY TO USE</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                        <div class="caption-button" data-animation="animated fadeInUp">
+                            <a href="#" class="button white btn-big">Log in</a>
+                        </div>
+                        <span class="login-border"></span>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-2.png" alt="">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="caption-title" data-animation="animated fadeInUp">
+                            <p class="title-sm bold">I don't have Account</p>
+                            <p class="title-lg bold">Let's Start</p>
                         </div>
-                        <h4>AWESOEM DESIGN</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-3.png" alt="">
+                        <div class="caption-button" data-animation="animated fadeInUp">
+                            <a href="#" class="button bg_color_1 btn-big">As a Traveller</a>
                         </div>
-                        <h4>EASY TO CUSTOMAIZE</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                        <div class="caption-button" data-animation="animated fadeInUp">
+                            <a href="#" class="button white btn-big">As a Buyer</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Feature-area/-->
 
-    <section class="angle-bg sky-bg section-padding" id="service-page">
+    <section class="angle-bg section-padding " id="service">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -282,6 +320,43 @@
             </div>
         </div>
     </section>
+
+    <!--Feature-area-->
+    <section class="gray-bg section-padding" >
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-1.png" alt="">
+                        </div>
+                        <h4>EASY TO USE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-2.png" alt="">
+                        </div>
+                        <h4>AWESOEM DESIGN</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-3.png" alt="">
+                        </div>
+                        <h4>EASY TO CUSTOMAIZE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Feature-area/-->
+
 
 
 

@@ -1,13 +1,12 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 
 /*-------------------
 2. Theme Default CSS
 --------------------*/
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -121,7 +120,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 2.5em;
     background-color: #ffffff;
-    color: #138fc2;
+    color: #fff;
     border-radius: 100px;
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
@@ -129,7 +128,7 @@ input:-webkit-autofill:focus {
 }
 
 .social-menu li a:hover {
-    background-color: #138fc2;
+    background-color: #fff;
     color: #ffffff;
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
@@ -141,10 +140,10 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    background: #ED8132;
+/*    background: -webkit-gradient(linear, left top, left bottom, from(#ED8132), to(#fff));
+    background: linear-gradient(to bottom, #ED8132 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED8132', endColorstr='#fff', GradientType=0);*/
     color: #ffffff;
 }
 
@@ -156,28 +155,11 @@ input:-webkit-autofill:focus {
 *Default Button
 **/
 
-.button {
-    display: inline-block;
-    padding: 8px 30px;
-    border-radius: 50px;
-    color: #ffffff;
-    background-color: #2f60c3;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    border: none;
-    -webkit-box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
-}
 
-.button.white,
-.button:hover {
-    background-color: #ffffff;
-    color: #138fc2;
-}
+
 
 .button.white:hover {
-    background-color: #2f60c3;
-    color: #ffffff;
+    color: #000;
 }
 
 .button i {
@@ -360,43 +342,31 @@ input:-webkit-autofill:focus {
 }
 
 
-.header-bottom img{
-    width: 12%;
-    background: red;
-    padding: 12px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 15px;
-}
 
-.header-bottom h1{
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .header-text .button {
     margin-top: 30px;
 }
 
-.screen-slider .item {
+.screen-slider2 .item {
     background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;
     padding: 56px 22px;
     display: inline-block;
     margin: auto;
 }
 
-.screen-slider.owl-carousel .owl-item {
-    text-align: center
+.screen-slider2.owl-carousel .owl-item {
+    text-align: center;
 }
 
-.screen-slider .owl-controls {
+.screen-slider2 .owl-controls {
     display: none;
     position: absolute;
     left: 0;
     top: 100%;
 }
 
-.screen-slider .owl-controls .owl-nav > div {
+.screen-slider2 .owl-controls .owl-nav > div {
     display: inline-block;
     margin: 0 15px;
     font-size: 20px;
@@ -407,12 +377,12 @@ input:-webkit-autofill:focus {
 .mainmenu-area .navbar-header{
     width: 20%;
 }
-.screen-slider .owl-controls .owl-nav {
+.screen-slider2 .owl-controls .owl-nav {
     position: relative;
     margin-top: 0;
 }
 
-.screen-slider .owl-controls .owl-nav:after {
+.screen-slider2 .owl-controls .owl-nav:after {
     content: "/";
     position: absolute;
     left: 50%;
@@ -851,10 +821,10 @@ preloader
     left: 0;
     width: 100%;
     height: 100%;
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    background: #ED8132;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ED8132), to(#fff));
+    background: linear-gradient(to bottom, #ED8132 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED8132', endColorstr='#fff', GradientType=0);
     z-index: 99999999999;
 }
 
