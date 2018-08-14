@@ -62,6 +62,7 @@
                     <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#login">Login</a></li>
                     <li><a href="#trendy">Trendy</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
                     <li><a href="#service">Service 2</a></li>
                     <li><a href="#feature-page">Features</a></li>
                     <li><a href="#price-page">Pricing</a></li>
@@ -69,6 +70,7 @@
                     <li><a href="#faq-page">FAQ</a></li>
                     <li><a href="#blog-page">Blog</a></li>
                     <li><a href="#contact-page">Contact</a></li>
+                    <li><a href="#contact-page2">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -201,9 +203,10 @@
     <!--Login-area/-->
 
     <!--trendy-area-->
-    <section class="section-padding  relative v-center" id="trendy">
+    <section class="section-padding  relative v-center trendy" id="trendy">
         <div class="container">
             <div class="row text-center">
+                <h1 class="title-trendy text_color_1">Trendy Now</h1>
                 <div class="col-xs-12">
                     <div class="clients">
                         <div class="item">
@@ -233,6 +236,22 @@
         </div>
     </section>
     <!--trendy-area/-->
+
+    <!--Why Us-area-->
+    <section class="section-padding full-height v-center why-us" id="why-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="title-why-us text_color_1">It's Peerposted</h1>
+                    <p class="text_color_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="text_color_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href="#" class="button pp-bg btn-why-us">Connect Us</a>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Why Us-area/-->
 
     <section class="angle-bg section-padding" id="service">
         <div class="container">
@@ -845,7 +864,105 @@
     </section>
 
 
-    <footer class="footer-area relative sky-bg" id="contact-page">
+    <footer class="footer-area relative contact-page" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="title-contact-us text_color_1">Connect Us</h1>
+                    </div>
+                </div>
+                
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="mail-us-tab" data-toggle="tab" href="#mail-us" role="tab" aria-controls="mail-us" aria-selected="true">Mail Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">port folio</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">... lksjdfl lksdfj sfdjls</div>
+</div>
+                <div class="row tab-pane fade show active" id="mail-us" role="tabpanel" aria-labelledby="mail-us-tab">
+                    <div class="col-xs-12 col-md-4">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/location-arrow.png" alt="">
+                                </div>
+                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/phone-arrow.png" alt="">
+                                </div>
+                                <p><strong>Telephone: </strong>
+                                    <a href="callto:8801812726495">+8801812726495</a> <br />
+                                    <a href="callto:8801687420471">+8801687420471</a>
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/mail-arrow.png" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
+                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                </p>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                            <div class="form-double">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
+                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                            </div>
+                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
+                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <button type="sibmit" class="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-google"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer class="footer-area relative sky-bg" id="contact-page2">
         <div class="absolute footer-bg"></div>
         <div class="footer-top">
             <div class="container">

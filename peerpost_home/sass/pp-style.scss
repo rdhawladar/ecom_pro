@@ -64,6 +64,12 @@ a, a:hover{
 
 }
 
+.title-why-us, .title-contact-us, .title-trendy{
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+}
+
 header{
   .header-bottom{
     .left-icon{
@@ -129,3 +135,27 @@ header{
 
 }
 
+.trendy{
+}
+
+.why-us{
+
+  .btn-why-us{
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  p{
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+
+.contact-page{
+
+}

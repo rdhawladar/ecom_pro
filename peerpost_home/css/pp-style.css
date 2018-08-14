@@ -56,6 +56,12 @@ a, a:hover {
   font-size: 50px;
 }
 
+.title-why-us, .title-contact-us, .title-trendy {
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+}
+
 header .header-bottom .left-icon {
   display: inline-block;
   vertical-align: middle;
@@ -106,4 +112,18 @@ header .header-bottom h1 {
   width: 90%;
 }
 
-/*# sourceMappingURL=../css/pp-style.css.map */
+.why-us .btn-why-us {
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.why-us p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=pp-style.css.map */
