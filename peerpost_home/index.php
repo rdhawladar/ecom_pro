@@ -61,6 +61,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#login">Login</a></li>
+                    <li><a href="#trendy">Trendy</a></li>
                     <li><a href="#service">Service 2</a></li>
                     <li><a href="#feature-page">Features</a></li>
                     <li><a href="#price-page">Pricing</a></li>
@@ -150,7 +151,9 @@
                 </div>
                 <div class="col-md-12 header-bottom header-text">
                     <div class="col-md-6">
-                        <img src="images/pp/search.svg">
+                        <div class="left-icon">
+                            <img src="images/pp/search.svg">
+                        </div>
                         <h1>Click to search your desire</h1>
                     </div>
                     <div class="col-md-6 text-right">
@@ -162,7 +165,8 @@
     </header>
     <!--Header-area/-->
 
-    <section class="sky-bg section-padding full-height relative v-center login" id="login">
+    <!--Login-area-->
+    <section class="sky-bg section-padding full-height v-center login" id="login">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -174,26 +178,63 @@
                         <div class="caption-button" data-animation="animated fadeInUp">
                             <a href="#" class="button white btn-big">Log in</a>
                         </div>
-                        <span class="login-border"></span>
                     </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="caption-title" data-animation="animated fadeInUp">
-                            <p class="title-sm bold">I don't have Account</p>
-                            <p class="title-lg bold">Let's Start</p>
-                        </div>
-                        <div class="caption-button" data-animation="animated fadeInUp">
-                            <a href="#" class="button bg_color_1 btn-big">As a Traveller</a>
-                        </div>
-                        <div class="caption-button" data-animation="animated fadeInUp">
-                            <a href="#" class="button white btn-big">As a Buyer</a>
+                    <div class="col-xs-12 col-md-6 login-right">
+                        <div class="pull-right">
+                            <div class="caption-title" data-animation="animated fadeInUp">
+                                <p class="title-sm bold">I don't have Account</p>
+                                <p class="title-lg bold">Let's Start</p>
+                            </div>
+                            <div class="caption-button" data-animation="animated fadeInUp">
+                                <a href="#" class="button bg_color_1 btn-big">As a Traveller</a>
+                            </div>
+                            <div class="caption-button" data-animation="animated fadeInUp">
+                                <a href="#" class="button white btn-big">As a Buyer</a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--Login-area/-->
 
-    <section class="angle-bg section-padding " id="service">
+    <!--trendy-area-->
+    <section class="section-padding  relative v-center" id="trendy">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="clients">
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/pp/mobile.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--trendy-area/-->
+
+    <section class="angle-bg section-padding" id="service">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -321,6 +362,7 @@
         </div>
     </section>
 
+    <!--Feature-area-->
     <!--Feature-area-->
     <section class="gray-bg section-padding" >
         <div class="container">

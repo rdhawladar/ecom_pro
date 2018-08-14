@@ -65,19 +65,37 @@ a, a:hover{
 }
 
 header{
-  .header-bottom img{
-      width: 12%;
-      background: $color_dark;
-      padding: 12px;
-      border-radius: 50%;
-      vertical-align: middle;
-      margin-right: 15px;
-  }
-
-  .header-bottom h1{
+  .header-bottom{
+    .left-icon{
       display: inline-block;
       vertical-align: middle;
-  }
+      background: #fff;
+      width: 10%;
+      border-radius: 50%;
+      text-align: center;
+      padding: 3px;
+      vertical-align: middle;
+      border: 1px solid $color_dark;
+      img{
+        background: $color_dark;
+        width: 100%;
+      }
+
+    }
+        img{
+          width: 10%;
+          background: $color_dark;
+          padding: 12px;
+          border-radius: 50%;
+          vertical-align: middle;
+          margin-right: 15px;
+      }
+      h1{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+    } 
 }
 .login{
 
@@ -92,14 +110,8 @@ header{
   .btn-big{
     font-size: 30px;
   }
-  .login-border{
-    float: right;
-    height: 100%;
-    border-right: 1px solid;
-    position: absolute;
-    right: 10%;
-    top: 20%;
-    width: 0;
+  .login-right{
+    border-left: 1px solid #fff;
 
     -webkit-border-image: 
       -webkit-linear-gradient(bottom, rgba(0,0,0,0) , #fff, rgba(0,0,0,0)) 1 100%;
@@ -109,6 +121,10 @@ header{
       -o-linear-gradient(bottom, rgba(0,0,0,0) , #fff, rgba(0,0,0,0)) 1 100%;
     border-image:
       linear-gradient(to top, rgba(0,0,0,0) , #fff, rgba(0,0,0,0)) 1 100%;
+
+    .btn-big{
+      width: 90%;
+    }
   }
 
 }

@@ -56,8 +56,23 @@ a, a:hover {
   font-size: 50px;
 }
 
+header .header-bottom .left-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  width: 10%;
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid #ED8132;
+}
+header .header-bottom .left-icon img {
+  background: #ED8132;
+  width: 100%;
+}
 header .header-bottom img {
-  width: 12%;
+  width: 10%;
   background: #ED8132;
   padding: 12px;
   border-radius: 50%;
@@ -80,18 +95,15 @@ header .header-bottom h1 {
 .login .btn-big {
   font-size: 30px;
 }
-.login .login-border {
-  float: right;
-  height: 100%;
-  border-right: 1px solid;
-  position: absolute;
-  right: 10%;
-  top: 20%;
-  width: 0;
+.login .login-right {
+  border-left: 1px solid #fff;
   -webkit-border-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)) 1 100%;
   -o-border-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)) 1 100%;
   border-image: linear-gradient(to top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)) 1 100%;
+}
+.login .login-right .btn-big {
+  width: 90%;
 }
 
 /*# sourceMappingURL=../css/pp-style.css.map */
