@@ -1,11 +1,7 @@
+@import "checkbox";
+@import "contactUs";
+@import "howItWorks";
 
-$color_dark: #ED8132;
-$color_light: #F5F8FD;
-$color_light_deep: #F0F0F0;
-$color_light_gray: #E0E4EF;
-$color_modal: #3B5999;
-$color_filter: invert(66%) sepia(45%) saturate(3305%) hue-rotate(339deg) brightness(97%) contrast(91%);
-$color_1: #646567;
 
 a, a:hover{
   text-decoration: none;
@@ -20,6 +16,10 @@ a, a:hover{
 
 .bg_color_1{
   background: $color_1;
+  color: $color_dark;
+}
+
+.text_color_dark{
   color: $color_dark;
 }
 .text_color_1{
@@ -68,6 +68,14 @@ a, a:hover{
   font-size: 75px;
   font-weight: bold;
   text-align: left;
+}
+
+.lets-start-menu{
+    background: $color_dark !important;
+    padding: 8px 25px !important;
+    border-radius: 20px;
+    margin: 20px 0;
+    color: #fff  !important;
 }
 
 header{
@@ -136,6 +144,28 @@ header{
 }
 
 .trendy{
+    .item{
+      span{
+          background: $color_dark;
+          color: #fff;
+          padding: 6px;
+          font-size: 10px;
+          border-radius: 5px;
+          z-index: 1;
+          position: absolute;
+          left: 10px;
+          top: 5px;
+      }
+      img{
+          padding: 20px;
+          background: #aaa;
+      }
+    }
+    .ti-arrow-right, .ti-arrow-left{
+        background: $color_dark ;
+        padding: 6px;
+        border-radius: 50%; 
+    }
 }
 
 .why-us{
@@ -155,7 +185,3 @@ header{
   }
 }
 
-
-.contact-page{
-
-}

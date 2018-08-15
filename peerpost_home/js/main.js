@@ -57,7 +57,7 @@
         responsiveClass: true,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 10000,
         smartSpeed: 1000,
         navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
         responsive: {
@@ -68,7 +68,7 @@
                 items: 4
             },
             1000: {
-                items: 6
+                items: 5
             }
         }
     });

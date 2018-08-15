@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Home</title>
+    <title>PeerPosted</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
@@ -63,14 +63,11 @@
                     <li><a href="#login">Login</a></li>
                     <li><a href="#trendy">Trendy</a></li>
                     <li><a href="#why-us">Why Us</a></li>
-                    <li><a href="#service">Service 2</a></li>
-                    <li><a href="#feature-page">Features</a></li>
-                    <li><a href="#price-page">Pricing</a></li>
-                    <li><a href="#team-page">Team</a></li>
-                    <li><a href="#faq-page">FAQ</a></li>
-                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#why-us-2">Why us 2</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact-page">Contact</a></li>
-                    <li><a href="#contact-page2">Contact</a></li>
+                    <li><a href="#" class="lets-start-menu">Let's Start</a></li>
                 </ul>
             </nav>
         </div>
@@ -205,32 +202,87 @@
     <!--trendy-area-->
     <section class="section-padding  relative v-center trendy" id="trendy">
         <div class="container">
+            <h1 class="title-trendy text_color_1">Trendy Now</h1>
+        </div>
+        <div class="container">
             <div class="row text-center">
-                <h1 class="title-trendy text_color_1">Trendy Now</h1>
                 <div class="col-xs-12">
                     <div class="clients">
+
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>-34%</span>
+                                <img style="background: <?php echo "#".str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT); ?>;" src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>-34%</span>
+                                <img style="background: <?php echo "#".str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT); ?>;" src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>-34%</span>
+                                <img style="background: <?php echo "#".str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT); ?>;" src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>-34%</span>
+                                <img style="background: <?php echo "#".str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT); ?>;" src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>-34%</span>
+                                <img style="background: <?php echo "#".str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT); ?>;" src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <span>Prime</span>
+                                <img src="images/pp/mobile.jpg" alt="">
+                                
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
+
                         <div class="item">
-                            <img src="images/pp/mobile.jpg" alt="">
+                            <div class="item-top">
+                                <img src="images/pp/mobile.jpg" alt="">
+                            </div>
+                            <div class="item-bottom text-left">
+                                <h4><b>i-phone 7 black special edition</b></h4>
+                                <p>$899</p>
+                            </div>
                         </div>
                     </div>
+                    <h3 class="text-right"><b>All Products</b></h3>
                 </div>
             </div>
         </div>
@@ -253,389 +305,222 @@
     </section>
     <!--Why Us-area/-->
 
-    <section class="angle-bg section-padding" id="service">
+    <!--How it Works-area-->
+    <section class="section-padding how-it-works" id="how-it-works">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to build</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-1.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-2.jpg" alt="">
-                                        </div>
-                                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="title"><span  class="title-why-us text_color_1">Do<br>you Love to<br>Travel?</span><br><span class="text_color_dark"><b>I want to buy?</b></span></h5>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Add your travel to calender</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to use</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-4.jpg" alt="">
-                                        </div>
-                                    </div>
+
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Collect product as you want</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to customize</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-7.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-2.jpg" alt="">
-                                        </div>
-                                    </div>
+
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Deliver to buyer</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Awesome design</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-6 col-md-3">
-                                        <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-4.jpg" alt="">
-                                        </div>
-                                    </div>
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Get the $ instant</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators caption-indector">
-                            <li data-target="#caption_slide" data-slide-to="0" class="active">
-                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="1">
-                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="2">
-                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="3">
-                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
-                            </li>
-                        </ol>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--How it Works-area/-->
 
-    <!--Feature-area-->
-    <!--Feature-area-->
-    <section class="gray-bg section-padding" >
+    <!--How it Works-area-->
+    <section class="section-padding how-it-works">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-1.png" alt="">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Search your product</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Buy from PeerPeerposted</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Pay to PeerPosted</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                            <div class="row bullet-content">
+                                <div class="col-md-1">
+                                    <img src="images/pp/bullet.svg">
+                                </div>
+                                <div class="col-md-11">
+                                    <h3 class="bullte-title">Get product delivered</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
                         </div>
-                        <h4>EASY TO USE</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-2.png" alt="">
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="title"><span  class="title-why-us text_color_1">Do<br>you Love to<br>Buy?</span><br><span class="text_color_dark"><b>I want to travel...?</b></span></h5>
                         </div>
-                        <h4>AWESOEM DESIGN</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-3.png" alt="">
-                        </div>
-                        <h4>EASY TO CUSTOMAIZE</h4>
-                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Feature-area/-->
+    <!--How it Works-area/-->
 
-
-
-
-    <section class="gray-bg section-padding" id="feature-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>SPECIAL FEATURES</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+    <!--Why us two-->
+    <section class="section-padding why-us-2" id="why-us-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="title-contact-us text_color_1">It's Secure, You can Trust</h1>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-5">
+                                <div class="content">
+                                    <h4><b>Fasted & Safest</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <div class="content">
+                                    <h4><b>Affordable & Varified</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <div class="content">
+                                    <h4><b>Shop securely & Carry with care</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-offset-2 col-md-5">
+                                <h1 class="text_color_1"><b>Fasted Delivery! Got<br>product with in 3 days.</b></h1>
+                                <br><br>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/pp/demo.jpg" class="img-responsive rounded-circle" >
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="german-office-title"><b>Malisa Maline</b></h4>
+                                        <p>USA</p>
+                                    </div>
+                                    
+                                </div>
+
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-1.png" alt="">
-                        </div>
-                        <h3>Creative Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-2.png" alt="">
-                        </div>
-                        <h3>Unlimited Features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-3.png" alt="">
-                        </div>
-                        <h3>Full Free Chat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-4.png" alt="">
-                        </div>
-                        <h3>Retina ready</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-5.png" alt="">
-                        </div>
-                        <h3>High Resolution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-6.png" alt="">
-                        </div>
-                        <h3>Clean Codes</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
+    <!--Why us two/-->
 
-
-
-
-    <section class="price-area overlay section-padding" id="price-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Afortable Price</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+    <!--FAQ area-->
+    <section class="section-padding faq" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="title-contact-us text_color_1">Got Interest? Know More</h1>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-5">
+                                <div class="content">
+                                    <h4><b>Is PeerPosted safe?</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <div class="content">
+                                    <h4><b>Is there cash involved?</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <div class="content">
+                                    <h4><b>What is a carrying fee?</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-offset-2 col-md-5">
+                                <div class="content">
+                                    <h4><b>What is the estimated delivery time?</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <div class="content">
+                                    <h4><b>Can buyer cancel a request after paying for the product?</b></h4>
+                                    <p class="text_color_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <br>
+                                <h4 class="text_color_dark"><b>know more...</b></h4>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="price-table">
-                        <h3 class="text-uppercase price-title">Basic</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
-                        <hr>
-                        <a href="#" class="button">Purchase</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="price-table active">
-                        <span class="price-info"><span class="ti-crown"></span></span>
-                        <h3 class="text-uppercase price-title">STABDARD</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
-                        <hr>
-                        <a href="#" class="button">Purchase</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="price-table">
-                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
-                            <li>100 MB Disk Space</li>
-                            <li>2 Subdomains</li>
-                            <li>5 Email Accounts</li>
-                            <li>Webmail Support</li>
-                            <li>Customer Support 24/7</li>
-                        </ul>
-                        <hr>
-                        <a href="#" class="button">Purchase</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
-
-
-
-    <section class="section-padding gray-bg" id="team-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Special team</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/team-section-1.png" alt="">
-                        </div>
-                        <h4>JEMY SEDONCE</h4>
-                        <h6>Co. Founder</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/team-section-2.png" alt="">
-                        </div>
-                        <h4>DEBORAH BROWN</h4>
-                        <h6>UX Designer</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/team-section-3.png" alt="">
-                        </div>
-                        <h4>HARRY BANKS</h4>
-                        <h6>Founder</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/team-section-4.png" alt="">
-                        </div>
-                        <h4>VICTORIA CLARK</h4>
-                        <h6>Creative Director</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
+    <!--FAQ area/-->
 
     <section class="testimonial-area section-padding gray-bg overlay">
         <div class="container">
@@ -698,172 +583,6 @@
         </div>
     </section>
 
-
-    <section class="gray-bg section-padding" id="faq-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Sedeiusmod tempor inccsetetur aliquatraiy?</a>
-                            </h4>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a>
-                            </h4>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
-                            </h4>
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
-                            </h4>
-                            <div id="collapse4" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section-padding overlay client-area overlay" id="client-page">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xs-12">
-                    <div class="clients">
-                        <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section-padding gray-bg" id="blog-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small1.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small2.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small3.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <footer class="footer-area relative contact-page" id="contact-page">
         <div class="absolute footer-bg"></div>
         <div class="footer-top">
@@ -873,164 +592,104 @@
                         <h1 class="title-contact-us text_color_1">Connect Us</h1>
                     </div>
                 </div>
-                
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="mail-us-tab" data-toggle="tab" href="#mail-us" role="tab" aria-controls="mail-us" aria-selected="true">Mail Us</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">port folio</div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">... lksjdfl lksdfj sfdjls</div>
-</div>
-                <div class="row tab-pane fade show active" id="mail-us" role="tabpanel" aria-labelledby="mail-us-tab">
-                    <div class="col-xs-12 col-md-4">
-                        <address class="side-icon-boxes">
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
-                                </div>
-                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/phone-arrow.png" alt="">
-                                </div>
-                                <p><strong>Telephone: </strong>
-                                    <a href="callto:8801812726495">+8801812726495</a> <br />
-                                    <a href="callto:8801687420471">+8801687420471</a>
-                                </p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
-                                </div>
-                                <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
-                                    <a href="mailto:youremail@example.com">example@mail.com</a>
-                                </p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="col-xs-12 col-md-8">
-                        <form action="process.php" id="contact-form" method="post" class="contact-form">
-                            <div class="form-double">
-                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
-                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
-                            </div>
-                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
-                            <button type="sibmit" class="button">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-middle">
-            <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 pull-right">
-                        <ul class="social-menu text-right x-left">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-google"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-github"></i></a></li>
+                    <div class="col-xs-12">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item active">
+                            <a class="nav-link" id="mail-us-tab" data-toggle="tab" href="#mail-us">Mail Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="visit-us-tab" data-toggle="tab" href="#visit-us" role="tab" aria-controls="visit-us" aria-selected="false">Visit Us</a>
+                          </li>
                         </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="row tab-pane fade active in" id="mail-us" role="tabpanel" aria-labelledby="mail-us-tab">
+                               <form action="#" id="contact-form" method="post">
+                                    <div class="col-xs-12">
+                                        <h4><b>I want to talk about you</b></h4>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 left-input">
+                                        <input type="text" id="form-name" name="name" placeholder="Name" class="form-control" required="required">
+                                        <input type="email" id="form-email" name="email" class="form-control" placeholder="Email" required="required">
+                                    </div>
+                                    <div class="col-xs-12 col-md-6 right-input">
+                                        <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Message" required="required"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="col-xs-12 col-md-6">
+                                                <div class="checkbox">
+                                                    <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                                                    <label for="styled-checkbox-1">Send me a copy</label>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-md-6 text-right">
+                                                <button type="sibmit" class="button pp-bg btn-send ">Send</button>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row tab-pane fade" id="visit-us" role="tabpanel" aria-labelledby="visit-us-tab">
+                                <div class="col-xs-12 col-md-4">
+                                    <h4><b>Corporate Office</b></h4>
+                                    <p>58/A, Lane Road, Ashanamile</p>
+                                    <p>Uttara, Dhaka, Bangladesh.</p><br>
+                                    <p>co@peerposted.com</p>
+                                    <br><br>
+                                    <h4><b>Corporate Office</b></h4>
+                                    <p>58/A, Lane Road, Ashanamile</p>
+                                    <p>Uttara, Dhaka, Bangladesh.</p><br>
+                                    <p>co@peerposted.com</p>
+                                </div>
+                                <div class="col-xs-12 col-md-offset-3 col-md-4">
+                                    <h4><b>Local Office</b></h4>
+                                    <p><i>Select Country &nbsp; &nbsp; &nbsp; Germany</i></p>
+                                    <p><i>Select Country &nbsp; &nbsp; &nbsp; Berlin</i></p>
+                                    <br><br>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="images/pp/demo.jpg" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h4 class="german-office-title"><b>Germany Office</b></h4>
+                                            <p>Wilane street, Berlin,</p>
+                                            <p>AA32 Germany</p>
+                                            <p>+52489766545-7</p>
+                                            <p>germany@peerposted.com</p>
+                                        </div>
+                                        
+                                    </div>
 
 
-    <footer class="footer-area relative sky-bg" id="contact-page2">
-        <div class="absolute footer-bg"></div>
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                        <div class="page-title">
-                            <h2>Contact with us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-4">
-                        <address class="side-icon-boxes">
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
-                                </div>
-                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/phone-arrow.png" alt="">
-                                </div>
-                                <p><strong>Telephone: </strong>
-                                    <a href="callto:8801812726495">+8801812726495</a> <br />
-                                    <a href="callto:8801687420471">+8801687420471</a>
-                                </p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
-                                </div>
-                                <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
-                                    <a href="mailto:youremail@example.com">example@mail.com</a>
-                                </p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="col-xs-12 col-md-8">
-                        <form action="process.php" id="contact-form" method="post" class="contact-form">
-                            <div class="form-double">
-                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
-                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
-                            </div>
-                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
-                            <button type="sibmit" class="button">Submit</button>
-                        </form>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="footer-middle">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 pull-right">
-                        <ul class="social-menu text-right x-left">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-google"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-github"></i></a></li>
-                        </ul>
+                    <div class="col-xs-12 col-sm-4 left">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                    <div class="col-xs-12 col-sm-4 middle text-center">
+                        <img src="images/pp/demo.jpg" class="img-responsive">
+                        <img src="images/pp/demo.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-12 col-sm-4 right">
+                        <p>Subscribe Us</p>
+                        <input type="text" name="" class="form-control">
+                        <button class="button">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -1038,16 +697,14 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
+                    <div class="content">
+                        <p>Company Number 548975654 VAT Number 54897</p>
+                        <p class="pull-right">&copy; PEERPOSTED 2018-2020</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
 
 
     <!--Vendor-JS-->
